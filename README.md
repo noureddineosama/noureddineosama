@@ -24,7 +24,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a **.NET Backend Developer** and Computer Science student focused on building robust, maintainable, and scalable backend applications with **C#** and **ASP.NET Core**.
+I'm a **.NET Backend Developer** focused on building robust, maintainable, and scalable backend applications with **C#** and **ASP.NET Core**.
 
 I concentrate on practical software engineering: translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
 
