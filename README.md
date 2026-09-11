@@ -87,16 +87,4 @@ I concentrate on practical software engineering: translating business requiremen
 - Cloud-ready learning system designed for online code execution, automated test evaluation, user management, and modular microservices.
 - **Tech Stack:** `C#` · `.NET 8` · `ASP.NET Core` · `PostgreSQL` · `Docker` · `REST APIs`
 
-<br/>
 
-## 🤝 Connect With Me
-
-- 💼 **LinkedIn:** [linkedin.com/in/noureddineosama](https://www.linkedin.com/in/noureddineosama)
-- 🐙 **GitHub:** [github.com/noureddineosama](https://github.com/noureddineosama)
-- 💬 Open to discussions about **.NET**, backend architecture, and new project opportunities!
-
----
-
-<div align="center">
-  <sub>© Noureddine Osama • .NET Backend Developer</sub>
-</div>
