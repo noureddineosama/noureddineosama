@@ -6,7 +6,7 @@
 </a>
 
 <p align="center">
-  <b>Full-Stack AI Engineer</b> passionate about architecting scalable enterprise systems, robust <b>.NET &amp; C#</b> backends, modern <b>React</b> interfaces, and intelligent <b>AI / LLM</b> workflows.
+  <b>Full-Stack AI Engineer</b> dedicated to building enterprise-grade cloud architectures, robust <b>.NET &amp; C#</b> backends, high-performance <b>React</b> applications, and intelligent <b>AI &amp; LLM</b> systems.
 </p>
 
 <!-- Social Badges -->
@@ -28,27 +28,20 @@
 
 <br/>
 
-<!-- Hero Section / About Me with GIF -->
-<table>
-  <tr>
-    <td width="58%" valign="top">
-      <h3>🚀 About Me</h3>
-      <p>
-        I am a versatile <b>Full-Stack AI Engineer</b> with deep expertise in enterprise backend development with <b>.NET &amp; C#</b>, reactive frontend architectures with <b>React &amp; TypeScript</b>, and modern <b>AI &amp; Data Engineering</b> pipelines.
-      </p>
-      <ul>
-        <li>🔭 <b>Currently Architecting:</b> Enterprise water operations intelligence &amp; telemetry monitoring systems.</li>
-        <li>💡 <b>Core Specializations:</b> Clean Architecture, DDD, Microservices, RESTful APIs, and Real-Time Systems.</li>
-        <li>🤖 <b>AI &amp; Data:</b> Integrating Large Language Models (LLMs), agentic workflows, and automated ETL pipelines.</li>
-        <li>⚡ <b>Production Stack:</b> .NET Core, ASP.NET Core, EF Core, React, TypeScript, Python, PostgreSQL, SQL Server.</li>
-        <li>📫 <b>Get in touch:</b> Open to high-impact software engineering and AI architecture opportunities.</li>
-      </ul>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <img src="./techstack.gif" width="340px" alt="Tech Stack Animation" />
-    </td>
-  </tr>
-</table>
+### 🚀 About Me
+
+<img align="right" width="370" src="./assets/hero-tech.jpg" alt="Futuristic AI Developer Station" style="border-radius: 14px; margin-left: 20px; margin-bottom: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
+
+I am a passionate **Full-Stack AI Engineer** with deep expertise in enterprise backend development with **.NET &amp; C#**, modern reactive web applications with **React &amp; TypeScript**, and end-to-end **AI &amp; Data Engineering** pipelines.
+
+* 🔭 **Currently Architecting:** [Water-Operations-Intelligence-Platform](https://github.com/noureddineosama/Water-Operations-Intelligence-Platform) — enterprise-scale water telemetry, automated pipelines &amp; live monitoring dashboards.
+* 🧠 **AI &amp; Intelligent Systems:** Engineering custom Large Language Model (LLM) agents, semantic workflows, automated ETL processes, and telemetry analytics.
+* 🏗️ **Architecture &amp; Core Stack:** Clean Architecture, Domain-Driven Design (DDD), Microservices, RESTful Web APIs, SignalR, and distributed caching.
+* ⚡ **Production Technologies:** .NET Core, ASP.NET Core, EF Core, React, TypeScript, Python, PostgreSQL, Microsoft SQL Server, Supabase, Docker.
+* 🎯 **Philosophy:** Writing clean, testable, maintainable code with high performance, rigorous security, and seamless developer experience.
+* 📫 **Let's Connect:** Open to impactful software engineering roles, AI system architecture, and collaborative innovations.
+
+<br clear="both"/>
 
 <br/>
 
@@ -66,19 +59,19 @@
 
 <table align="center" width="100%">
   <tr>
-    <th align="left">Category</th>
-    <th align="left">Technologies &amp; Tools</th>
+    <th align="left">Domain</th>
+    <th align="left">Technologies &amp; Frameworks</th>
   </tr>
   <tr>
     <td><b>Backend &amp; Cloud</b></td>
     <td>C#, .NET Core, ASP.NET Core, Entity Framework Core, Python, Node.js, REST APIs, Microservices, Azure</td>
   </tr>
   <tr>
-    <td><b>Frontend</b></td>
+    <td><b>Frontend Engineering</b></td>
     <td>React.js, TypeScript, JavaScript (ES6+), Redux, TailwindCSS, Vite, HTML5, CSS3</td>
   </tr>
   <tr>
-    <td><b>AI &amp; Data Engineering</b></td>
+    <td><b>AI &amp; Data Systems</b></td>
     <td>Large Language Models (LLMs), LangChain, PyTorch, Data Pipelines, Pandas, NumPy</td>
   </tr>
   <tr>
@@ -86,8 +79,8 @@
     <td>PostgreSQL, Microsoft SQL Server, Supabase, Redis</td>
   </tr>
   <tr>
-    <td><b>DevOps &amp; Tools</b></td>
-    <td>Docker, Git, GitHub Actions, CI/CD Workflows, Postman, Linux</td>
+    <td><b>DevOps &amp; Infrastructure</b></td>
+    <td>Docker, Git, GitHub Actions, CI/CD Pipelines, Postman, Linux</td>
   </tr>
 </table>
 
