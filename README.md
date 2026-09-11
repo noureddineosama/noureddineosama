@@ -30,16 +30,16 @@
 
 ### 🚀 About Me
 
-<img align="right" width="370" src="./assets/coding.gif" alt="Developer Coding GIF" style="border-radius: 12px; margin-left: 20px; margin-bottom: 20px;" />
+<img align="right" width="310" src="./assets/developer.gif" alt="Developer Coding Animation" style="margin-left: 20px; margin-bottom: 10px;" />
 
-I am a versatile **Full-Stack AI Engineer** with deep expertise in enterprise backend development with **.NET &amp; C#**, modern reactive web applications with **React &amp; TypeScript**, and end-to-end **AI &amp; Data Engineering** pipelines.
+I am a **Full-Stack AI Engineer** specializing in enterprise backend systems with **.NET &amp; C#**, modern reactive web applications with **React &amp; TypeScript**, and scalable **AI &amp; Data Engineering** pipelines.
 
-* 🔭 **Currently Architecting:** [Water-Operations-Intelligence-Platform](https://github.com/noureddineosama/Water-Operations-Intelligence-Platform) — enterprise-scale telemetry, automated pipelines &amp; live monitoring dashboards.
-* 🧠 **AI &amp; Intelligent Systems:** Engineering custom Large Language Model (LLM) agents, semantic workflows, automated ETL processes, and telemetry analytics.
-* 🏗️ **Architecture &amp; Core Stack:** Clean Architecture, Domain-Driven Design (DDD), Microservices, RESTful Web APIs, SignalR, and distributed caching.
-* ⚡ **Production Technologies:** .NET Core, ASP.NET Core, EF Core, React, TypeScript, Python, PostgreSQL, Microsoft SQL Server, Supabase, Docker.
-* 🎯 **Engineering Philosophy:** Writing clean, testable, maintainable code with high performance, rigorous security, and seamless developer experience.
-* 📫 **Let's Connect:** Open to impactful software engineering roles, AI system architecture, and collaborative innovations.
+* 🔭 **Active Project:** [Water-Operations-Intelligence-Platform](https://github.com/noureddineosama/Water-Operations-Intelligence-Platform) — real-time telemetry, automated data pipelines &amp; live monitoring dashboards.
+* 🧠 **AI &amp; Data Systems:** Engineering custom Large Language Model (LLM) agents, semantic workflows, automated ETL processes, and telemetry analytics.
+* 🏗️ **Core Architecture:** Clean Architecture, Domain-Driven Design (DDD), Microservices, RESTful Web APIs, SignalR, and distributed caching.
+* ⚡ **Core Tech Stack:** .NET Core, ASP.NET Core, EF Core, React, TypeScript, Python, PostgreSQL, Microsoft SQL Server, Supabase, Docker.
+* 🎯 **Engineering Goal:** Building high-throughput, secure, and resilient software that scales gracefully.
+* 📫 **Reach Out:** Open to senior software engineering roles, AI system architecture, and collaborative innovations.
 
 <br clear="both"/>
 
