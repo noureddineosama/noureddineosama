@@ -59,32 +59,30 @@ I concentrate on practical software engineering: translating business requiremen
 
 ## 🚀 Featured Projects
 
-### 💧 [Water Operations Intelligence Platform](https://github.com/noureddineosama/Water-Operations-Intelligence-Platform)
-**Enterprise water telemetry & geospatial intelligence platform**
-- Ingests real-time water flow telemetry, sensor measurements, and geospatial data across 39 git branches.
-- Features automated data engineering pipelines, anomaly detection, time-series forecasting, and an interactive monitoring portal.
-- **Tech Stack:** `ASP.NET Core` · `Python` · `PostgreSQL` · `GIS / Telemetry Pipelines` · `Supabase` · `React`
+<div align="center">
 
----
+<a href="https://github.com/noureddineosama/Water-Operations-Intelligence-Platform" target="_blank">
+  <img alt="Water Operations Intelligence Platform" src="./projects/water-intelligence.svg" width="100%" />
+</a>
 
-### ✈️ [Online Travel Booking API](https://github.com/noureddineosama/OnlineTravelBookingAPP)
-**Production-grade travel reservation backend engineered with Clean Architecture**
-- Built with strict separation of concerns (Domain, Application, Infrastructure, Presentation layers).
-- Implements MediatR CQRS pattern, in-memory/distributed caching, request rate limiting, cancellation token propagation, and database transaction management.
-- **Tech Stack:** `C#` · `ASP.NET Core` · `Entity Framework Core` · `MediatR` · `PostgreSQL` · `Clean Architecture`
+<br/><br/>
 
----
+<a href="https://github.com/noureddineosama/OnlineTravelBookingAPP" target="_blank">
+  <img alt="Online Travel Booking App" src="./projects/travel-booking.svg" width="100%" />
+</a>
 
-### 🩺 [Doctor Booking App](https://github.com/noureddineosama/DoctorBookingApp)
-**Healthcare appointment scheduling platform**
-- Secure patient-doctor booking lifecycle, appointment availability slots, role-based access control, and notification workflow.
-- **Tech Stack:** `C#` · `ASP.NET Core` · `Entity Framework Core` · `SQL Server` · `REST API`
+<br/><br/>
 
----
+<a href="https://github.com/noureddineosama/DoctorBookingApp" target="_blank">
+  <img alt="Doctor Booking App" src="./projects/doctor-booking.svg" width="100%" />
+</a>
 
-### 💻 [Codean](https://github.com/noureddineosama)
-**Online coding and learning platform**
-- Cloud-ready learning system designed for online code execution, automated test evaluation, user management, and modular microservices.
-- **Tech Stack:** `C#` · `.NET 8` · `ASP.NET Core` · `PostgreSQL` · `Docker` · `REST APIs`
+<br/><br/>
+
+<a href="https://github.com/noureddineosama" target="_blank">
+  <img alt="Codean" src="./projects/codean.svg" width="100%" />
+</a>
+
+</div>
 
 
