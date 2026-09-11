@@ -28,7 +28,7 @@ I'm a **.NET Backend Developer** focused on building robust, maintainable, and s
 
 I concentrate on practical software engineering: translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
 
-- 💻 **Primary Technologies:** C# (.NET 8), ASP.NET Core, Entity Framework Core, LINQ
+- 💻 **Primary Technologies:** C# (.NET 10), ASP.NET Core, Entity Framework Core, LINQ
 - 🏗️ **Architectural Focus:** Clean Architecture, Domain-Driven Design (DDD) concepts, MediatR (CQRS pattern), Dependency Injection
 - 🗄️ **Databases & Caching:** PostgreSQL, Microsoft SQL Server, Redis
 - ⚙️ **Best Practices:** Async/await patterns, Global Exception Handling, Structured Logging, CancellationTokens, Rate Limiting
