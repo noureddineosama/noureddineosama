@@ -1,56 +1,46 @@
 <svg width="560" height="92" viewBox="0 0 560 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title { fill: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; }
-    .desc { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; }
-    .card-border { stroke: #d0d7de; }
-    .pill-bg { fill: #f6f8fa; stroke: #d0d7de; }
-    .arrow { stroke: #656d76; }
-    @media (prefers-color-scheme: dark) {
-      .title { fill: #f0f6fc; }
-      .desc { fill: #8b949e; }
-      .card-border { stroke: #30363d; }
-      .pill-bg { fill: #161b22; stroke: #30363d; }
-      .arrow { stroke: #8b949e; }
-    }
-  </style>
-
   <defs>
-    <linearGradient id="accentTravel" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Card 2: Sunset Coral & Orange Gradient -->
+    <linearGradient id="bgTravel" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ea580c"/>
-      <stop offset="100%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#c2410c"/>
     </linearGradient>
   </defs>
 
-  <!-- Transparent Background Card with Adaptive Border -->
-  <rect x="1" y="1" width="558" height="90" rx="14" fill="none" class="card-border" stroke-width="1.2"/>
+  <!-- Distinct Background -->
+  <rect width="560" height="92" rx="14" fill="url(#bgTravel)"/>
   
-  <!-- Left accent bar -->
-  <rect x="1" y="24" width="4" height="44" rx="2" fill="url(#accentTravel)"/>
+  <!-- Subtle inner border overlay -->
+  <rect x="1" y="1" width="558" height="90" rx="13" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.2"/>
 
   <!-- Icon Container -->
-  <rect x="22" y="20" width="52" height="52" rx="12" fill="#ea580c" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.3"/>
+  <rect x="20" y="20" width="52" height="52" rx="12" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.35"/>
   <!-- Airplane Icon -->
-  <path d="M58 43L48 40L42 30H38L42 41L35 43L32 40H29L31 46L29 52H32L35 49L42 51L38 62H42L48 52L58 49C59.657 49 61 47.657 61 46C61 44.343 59.657 43 58 43Z" fill="url(#accentTravel)"/>
+  <path d="M56 43L46 40L40 30H36L40 41L33 43L30 40H27L29 46L27 52H30L33 49L40 51L36 62H40L46 52L56 49C57.657 49 59 47.657 59 46C59 44.343 57.657 43 56 43Z" fill="#ffffff"/>
 
   <!-- Title -->
-  <text x="88" y="38" class="title">Online Travel Booking Platform</text>
+  <text x="86" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff">
+    Online Travel Booking Platform
+  </text>
 
   <!-- Description -->
-  <text x="88" y="56" class="desc">Full-stack travel &amp; itinerary reservation system built with .NET Web API</text>
+  <text x="86" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#ffedd5">
+    Full-stack travel &amp; itinerary reservation system built with .NET Web API
+  </text>
 
   <!-- Tech tags -->
-  <rect x="88" y="64" width="36" height="18" rx="4" class="pill-bg"/>
-  <text x="106" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#7c3aed" text-anchor="middle">C#</text>
+  <rect x="86" y="64" width="38" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="105" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">C#</text>
 
-  <rect x="130" y="64" width="46" height="18" rx="4" class="pill-bg"/>
-  <text x="153" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#2563eb" text-anchor="middle">.NET</text>
+  <rect x="130" y="64" width="48" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="154" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">.NET</text>
 
-  <rect x="182" y="64" width="62" height="18" rx="4" class="pill-bg"/>
-  <text x="213" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#0891b2" text-anchor="middle">Web API</text>
+  <rect x="184" y="64" width="64" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="216" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">Web API</text>
 
-  <rect x="250" y="64" width="102" height="18" rx="4" class="pill-bg"/>
-  <text x="301" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#059669" text-anchor="middle">Clean Architecture</text>
+  <rect x="254" y="64" width="104" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="306" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">Clean Architecture</text>
 
   <!-- Arrow Indicator -->
-  <path d="M528 46L521 39M528 46L521 53" class="arrow" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M528 46L521 39M528 46L521 53" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

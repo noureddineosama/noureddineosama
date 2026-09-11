@@ -1,56 +1,46 @@
 <svg width="560" height="92" viewBox="0 0 560 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title { fill: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; }
-    .desc { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; }
-    .card-border { stroke: #d0d7de; }
-    .pill-bg { fill: #f6f8fa; stroke: #d0d7de; }
-    .arrow { stroke: #656d76; }
-    @media (prefers-color-scheme: dark) {
-      .title { fill: #f0f6fc; }
-      .desc { fill: #8b949e; }
-      .card-border { stroke: #30363d; }
-      .pill-bg { fill: #161b22; stroke: #30363d; }
-      .arrow { stroke: #8b949e; }
-    }
-  </style>
-
   <defs>
-    <linearGradient id="accentCodean" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+    <!-- Card 4: Cyber Purple & Indigo Gradient -->
+    <linearGradient id="bgCodean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
     </linearGradient>
   </defs>
 
-  <!-- Transparent Background Card with Adaptive Border -->
-  <rect x="1" y="1" width="558" height="90" rx="14" fill="none" class="card-border" stroke-width="1.2"/>
+  <!-- Distinct Background -->
+  <rect width="560" height="92" rx="14" fill="url(#bgCodean)"/>
   
-  <!-- Left accent bar -->
-  <rect x="1" y="24" width="4" height="44" rx="2" fill="url(#accentCodean)"/>
+  <!-- Subtle inner border overlay -->
+  <rect x="1" y="1" width="558" height="90" rx="13" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.2"/>
 
   <!-- Icon Container -->
-  <rect x="22" y="20" width="52" height="52" rx="12" fill="#7c3aed" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.3"/>
-  <!-- Code Terminal / Brackets Icon -->
-  <path d="M38 41L33 46L38 51M58 41L63 46L58 51M51 36L45 56" stroke="url(#accentCodean)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="20" width="52" height="52" rx="12" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.35"/>
+  <!-- Code Brackets Icon -->
+  <path d="M37 41L32 46L37 51M55 41L60 46L55 51M49 36L43 56" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Title -->
-  <text x="88" y="38" class="title">Codean</text>
+  <text x="86" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff">
+    Codean
+  </text>
 
   <!-- Description -->
-  <text x="88" y="56" class="desc">Online coding &amp; learning platform with automated code execution engine</text>
+  <text x="86" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#e0e7ff">
+    Online coding &amp; learning platform with automated code execution engine
+  </text>
 
   <!-- Tech tags -->
-  <rect x="88" y="64" width="36" height="18" rx="4" class="pill-bg"/>
-  <text x="106" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#7c3aed" text-anchor="middle">C#</text>
+  <rect x="86" y="64" width="38" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="105" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">C#</text>
 
-  <rect x="130" y="64" width="76" height="18" rx="4" class="pill-bg"/>
-  <text x="168" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#2563eb" text-anchor="middle">ASP.NET Core</text>
+  <rect x="130" y="64" width="78" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="169" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">ASP.NET Core</text>
 
-  <rect x="212" y="64" width="76" height="18" rx="4" class="pill-bg"/>
-  <text x="250" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#0284c7" text-anchor="middle">PostgreSQL</text>
+  <rect x="214" y="64" width="78" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="253" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
 
-  <rect x="294" y="64" width="56" height="18" rx="4" class="pill-bg"/>
-  <text x="322" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#2563eb" text-anchor="middle">Docker</text>
+  <rect x="298" y="64" width="58" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="327" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">Docker</text>
 
   <!-- Arrow Indicator -->
-  <path d="M528 46L521 39M528 46L521 53" class="arrow" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M528 46L521 39M528 46L521 53" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

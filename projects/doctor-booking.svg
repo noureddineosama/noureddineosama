@@ -1,59 +1,49 @@
 <svg width="560" height="92" viewBox="0 0 560 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title { fill: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; }
-    .desc { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; }
-    .card-border { stroke: #d0d7de; }
-    .pill-bg { fill: #f6f8fa; stroke: #d0d7de; }
-    .arrow { stroke: #656d76; }
-    @media (prefers-color-scheme: dark) {
-      .title { fill: #f0f6fc; }
-      .desc { fill: #8b949e; }
-      .card-border { stroke: #30363d; }
-      .pill-bg { fill: #161b22; stroke: #30363d; }
-      .arrow { stroke: #8b949e; }
-    }
-  </style>
-
   <defs>
-    <linearGradient id="accentDoctor" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Card 3: Emerald & Teal Green Gradient -->
+    <linearGradient id="bgDoctor" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#059669"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
     </linearGradient>
   </defs>
 
-  <!-- Transparent Background Card with Adaptive Border -->
-  <rect x="1" y="1" width="558" height="90" rx="14" fill="none" class="card-border" stroke-width="1.2"/>
+  <!-- Distinct Background -->
+  <rect width="560" height="92" rx="14" fill="url(#bgDoctor)"/>
   
-  <!-- Left accent bar -->
-  <rect x="1" y="24" width="4" height="44" rx="2" fill="url(#accentDoctor)"/>
+  <!-- Subtle inner border overlay -->
+  <rect x="1" y="1" width="558" height="90" rx="13" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.2"/>
 
   <!-- Icon Container -->
-  <rect x="22" y="20" width="52" height="52" rx="12" fill="#059669" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.3"/>
+  <rect x="20" y="20" width="52" height="52" rx="12" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.35"/>
   <!-- Medical Cross Icon -->
-  <path d="M45 32H51V45H64V51H51V64H45V51H32V45H45V32Z" fill="url(#accentDoctor)"/>
+  <path d="M43 32H49V43H60V49H49V60H43V49H32V43H43V32Z" fill="#ffffff"/>
 
   <!-- Title -->
-  <text x="88" y="38" class="title">Doctor Booking Application</text>
+  <text x="86" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff">
+    Doctor Booking Application
+  </text>
 
   <!-- Description -->
-  <text x="88" y="56" class="desc">Healthcare appointment scheduling platform with clean architecture &amp; auth</text>
+  <text x="86" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#d1fae5">
+    Healthcare appointment scheduling platform with clean architecture &amp; auth
+  </text>
 
   <!-- Tech tags -->
-  <rect x="88" y="64" width="36" height="18" rx="4" class="pill-bg"/>
-  <text x="106" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#7c3aed" text-anchor="middle">C#</text>
+  <rect x="86" y="64" width="38" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="105" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">C#</text>
 
-  <rect x="130" y="64" width="76" height="18" rx="4" class="pill-bg"/>
-  <text x="168" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#2563eb" text-anchor="middle">ASP.NET Core</text>
+  <rect x="130" y="64" width="78" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="169" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">ASP.NET Core</text>
 
-  <rect x="212" y="64" width="56" height="18" rx="4" class="pill-bg"/>
-  <text x="240" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#059669" text-anchor="middle">EF Core</text>
+  <rect x="214" y="64" width="58" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="243" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">EF Core</text>
 
-  <rect x="274" y="64" width="70" height="18" rx="4" class="pill-bg"/>
-  <text x="309" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#d97706" text-anchor="middle">SQL Server</text>
+  <rect x="278" y="64" width="72" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="314" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">SQL Server</text>
 
-  <rect x="350" y="64" width="48" height="18" rx="4" class="pill-bg"/>
-  <text x="374" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#0284c7" text-anchor="middle">React</text>
+  <rect x="356" y="64" width="50" height="18" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.3"/>
+  <text x="381" y="77" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">React</text>
 
   <!-- Arrow Indicator -->
-  <path d="M528 46L521 39M528 46L521 53" class="arrow" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M528 46L521 39M528 46L521 53" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
