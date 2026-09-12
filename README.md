@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg?v=transparent" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
 <br/>
 
@@ -16,7 +16,7 @@
      ABOUT ME
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about.svg" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about.svg?v=transparent" alt="About Me" width="100%" />
 
 <br/>
 
@@ -31,19 +31,19 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack.svg" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack.svg?v=transparent" alt="Tech Stack" width="100%" />
 
 <br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&theme=light&perline=9" alt="Tech Icons" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-minimal.svg" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-minimal.svg?v=transparent" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
@@ -51,14 +51,14 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg?v=transparent" alt="GitHub Stats" width="100%" />
 
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false&timezone=Africa%2FCairo&v=90" alt="GitHub Streak" width="750" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=transparent&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=8B949E&dates=8B949E&sideNums=38BDF8&currStreakNum=38BDF8&hide_border=true&timezone=Africa%2FCairo&v=91" alt="GitHub Streak" width="750" />
 
 </div>
 

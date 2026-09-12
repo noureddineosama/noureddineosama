@@ -1,18 +1,11 @@
 <svg width="900" height="185" viewBox="0 0 900 185" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGradClean" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="60%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#F1F5F9"/>
-    </linearGradient>
-
     <!-- Border Gradient -->
     <linearGradient id="borderGradClean" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.7"/>
-      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.4"/>
-      <stop offset="70%" stop-color="#CBD5E1"/>
-      <stop offset="100%" stop-color="#E2E8F0"/>
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#94A3B8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
     </linearGradient>
 
     <!-- Top Accent Bar Gradient -->
@@ -22,25 +15,32 @@
       <stop offset="70%" stop-color="#6366F1"/>
       <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
-
-    <!-- Dot Grid Pattern -->
-    <pattern id="dotPatternClean" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#64748B" fill-opacity="0.08"/>
-    </pattern>
-
-    <!-- Role Badge Background -->
-    <linearGradient id="roleBadgeClean" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#EFF6FF"/>
-      <stop offset="100%" stop-color="#EEF2FF"/>
-    </linearGradient>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="900" height="185" rx="12" fill="url(#bgGradClean)"/>
-  <rect width="900" height="185" rx="12" fill="url(#dotPatternClean)"/>
+  <style>
+    .title-text { fill: #0F172A; }
+    .subtitle-text { fill: #475569; }
+    .breadcrumb-text { fill: #64748B; }
+    .chip-bg { fill: rgba(148, 163, 184, 0.08); stroke: rgba(148, 163, 184, 0.3); }
+    .chip-text { fill: #1E293B; }
+    .role-bg { fill: rgba(2, 132, 199, 0.08); stroke: #0284C7; }
+    .role-text { fill: #0284C7; }
+    .divider-line { stroke: rgba(148, 163, 184, 0.25); }
 
-  <!-- Outer Border -->
-  <rect x="0.75" y="0.75" width="898.5" height="183.5" rx="11.25" stroke="url(#borderGradClean)" stroke-width="1.5"/>
+    @media (prefers-color-scheme: dark) {
+      .title-text { fill: #F0F6FC; }
+      .subtitle-text { fill: #94A3B8; }
+      .breadcrumb-text { fill: #8B949E; }
+      .chip-bg { fill: rgba(255, 255, 255, 0.06); stroke: rgba(255, 255, 255, 0.16); }
+      .chip-text { fill: #E2E8F0; }
+      .role-bg { fill: rgba(56, 189, 248, 0.15); stroke: #38BDF8; }
+      .role-text { fill: #38BDF8; }
+      .divider-line { stroke: rgba(255, 255, 255, 0.12); }
+    }
+  </style>
+
+  <!-- Transparent Card Border (No background fill) -->
+  <rect x="0.75" y="0.75" width="898.5" height="183.5" rx="11.25" stroke="url(#borderGradClean)" stroke-width="1.5" fill="none"/>
 
   <!-- Top Accent Line -->
   <rect x="12" y="1" width="876" height="3" rx="1.5" fill="url(#topBarClean)"/>
@@ -50,75 +50,75 @@
   <circle cx="48" cy="22" r="4.5" fill="#F59E0B" fill-opacity="0.85"/>
   <circle cx="62" cy="22" r="4.5" fill="#10B981" fill-opacity="0.85"/>
 
-  <text x="82" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="500" fill="#64748B">
+  <text x="82" y="26" class="breadcrumb-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="500">
     noureddine-osama / main / backend-developer.cs
   </text>
 
   <!-- Divider Line -->
-  <line x1="24" y1="38" x2="876" y2="38" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="24" y1="38" x2="876" y2="38" class="divider-line" stroke-width="1"/>
 
   <!-- ─── ROLE CAPSULE ───────────────────────────────────────────────────────── -->
   <g transform="translate(32, 50)">
-    <rect width="206" height="23" rx="11.5" fill="url(#roleBadgeClean)" stroke="#BFDBFE" stroke-width="1"/>
+    <rect width="206" height="23" rx="11.5" class="role-bg" stroke-width="1"/>
     <!-- Bolt Icon -->
     <path d="M14 12L18 6.5H22.5L19 11H23L16 17.5L17.5 13H14V12Z" fill="#0284C7"/>
-    <text x="28" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#0284C7" letter-spacing="0.8">
+    <text x="28" y="16" class="role-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.8">
       .NET BACKEND DEVELOPER
     </text>
   </g>
 
   <!-- ─── MAIN NAME ──────────────────────────────────────────────────────────── -->
-  <text x="32" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="32" font-weight="800" fill="#0F172A" letter-spacing="-0.5">
+  <text x="32" y="104" class="title-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">
     Noureddine Osama
   </text>
 
   <!-- ─── VALUE STATEMENT / SUBTITLE ─────────────────────────────────────────── -->
-  <text x="32" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#475569">
+  <text x="32" y="128" class="subtitle-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
     Building High-Performance APIs, Resilient Cloud Services &amp; Clean Domain Architectures
   </text>
 
   <!-- ─── TECH CHIPS ROW ─────────────────────────────────────────────────────── -->
   <g transform="translate(32, 144)">
-    <!-- Chip 1: C# -->
+    <!-- Chip 1: C# 14 -->
     <g transform="translate(0, 0)">
-      <rect width="50" height="24" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
-      <text x="25" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0F172A" text-anchor="middle">C# 14</text>
+      <rect width="54" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="27" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5CF6" text-anchor="middle">C# 14</text>
     </g>
 
     <!-- Chip 2: .NET 10 -->
-    <g transform="translate(58, 0)">
-      <rect width="68" height="24" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
-      <text x="34" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#6D28D9" text-anchor="middle">.NET 10</text>
+    <g transform="translate(62, 0)">
+      <rect width="68" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="34" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">.NET 10</text>
     </g>
 
     <!-- Chip 3: ASP.NET Core -->
-    <g transform="translate(134, 0)">
-      <rect width="110" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
-      <text x="55" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">ASP.NET Core</text>
+    <g transform="translate(138, 0)">
+      <rect width="112" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="56" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">ASP.NET Core</text>
     </g>
 
     <!-- Chip 4: Clean Architecture -->
-    <g transform="translate(252, 0)">
-      <rect width="128" height="24" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
-      <text x="64" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="middle">Clean Architecture</text>
+    <g transform="translate(258, 0)">
+      <rect width="130" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="65" y="16" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Clean Architecture</text>
     </g>
 
     <!-- Chip 5: CQRS / MediatR -->
-    <g transform="translate(388, 0)">
-      <rect width="116" height="24" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
-      <text x="58" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="middle">CQRS / MediatR</text>
+    <g transform="translate(396, 0)">
+      <rect width="118" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="59" y="16" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">CQRS / MediatR</text>
     </g>
 
     <!-- Chip 6: PostgreSQL -->
-    <g transform="translate(512, 0)">
-      <rect width="88" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
-      <text x="44" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0369A1" text-anchor="middle">PostgreSQL</text>
+    <g transform="translate(522, 0)">
+      <rect width="90" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="45" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">PostgreSQL</text>
     </g>
 
     <!-- Chip 7: Docker -->
-    <g transform="translate(608, 0)">
-      <rect width="66" height="24" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
-      <text x="33" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#15803D" text-anchor="middle">Docker</text>
+    <g transform="translate(620, 0)">
+      <rect width="66" height="24" rx="6" class="chip-bg" stroke-width="1"/>
+      <text x="33" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">Docker</text>
     </g>
   </g>
 </svg>
