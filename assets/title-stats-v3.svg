@@ -1,0 +1,64 @@
+<svg viewBox="0 0 650 96" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:650px;display:block;">
+  <defs>
+    <!-- Vibrant Visible Frame Border (Visible on Dark & Light) -->
+    <linearGradient id="frameBorderStats" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="35%" stop-color="#059669"/>
+      <stop offset="70%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="glassBgStats" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <!-- Accent Bar -->
+    <linearGradient id="barStats" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-main { fill: #0F172A; }
+    .title-sub { fill: #64748B; }
+    .tag-text { fill: #059669; }
+    .icon-box { fill: rgba(16, 185, 129, 0.12); stroke: #10B981; }
+
+    @media (prefers-color-scheme: dark) {
+      .title-main { fill: #FFFFFF; }
+      .title-sub { fill: #94A3B8; }
+      .tag-text { fill: #34D399; }
+      .icon-box { fill: rgba(52, 211, 153, 0.15); stroke: #34D399; }
+    }
+  </style>
+
+  <!-- Clear Vibrant Frame -->
+  <rect x="0.75" y="0.75" width="648.5" height="94.5" rx="14" stroke="url(#frameBorderStats)" stroke-width="1.5" fill="url(#glassBgStats)"/>
+
+  <!-- Left Accent Bar -->
+  <path d="M0 14C0 6.268 6.268 0 14 0H18V96H14C6.268 96 0 89.732 0 82V14Z" fill="url(#barStats)"/>
+
+  <!-- Left Icon Badge -->
+  <g transform="translate(30, 20)">
+    <rect width="56" height="56" rx="12" class="icon-box" stroke-width="1.2"/>
+    <!-- Pulse / Chart Icon -->
+    <path d="M16 35L23 23L29 31L35 19L40 35" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Section Text -->
+  <g transform="translate(104, 0)">
+    <!-- Category Tag -->
+    <text x="0" y="38" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700" letter-spacing="1.5">
+      // 03. METRICS &amp; CONSISTENCY
+    </text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <tspan font-size="26" font-weight="800" class="title-main">GitHub Activity</tspan>
+      <tspan dx="12" font-size="16" font-weight="500" class="title-sub">— Contribution streak, commits &amp; open-source velocity</tspan>
+    </text>
+  </g>
+</svg>
