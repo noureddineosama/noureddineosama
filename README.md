@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🚀 HERO BANNER 🚀 -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v3.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v4.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
 
 <br/>
 
@@ -16,7 +16,7 @@
      ABOUT ME
      👤 -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v3.svg" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v4.svg" alt="About Me" width="100%" />
 
 <br/>
 
@@ -30,7 +30,7 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      🛠️ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v3.svg" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v4.svg" alt="Tech Stack" width="100%" />
 
 <br/>
 
@@ -42,7 +42,7 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v5.svg" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v6.svg" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
@@ -50,7 +50,7 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      📊 -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v3.svg" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v4.svg" alt="GitHub Stats" width="100%" />
 
 <br/>
 
