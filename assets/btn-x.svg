@@ -1,0 +1,21 @@
+<svg width="86" height="36" viewBox="0 0 86 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgX" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="86" height="36" rx="8" fill="url(#bgX)"/>
+  <rect x="0.5" y="0.5" width="85" height="35" rx="7.5" stroke="#FFFFFF" stroke-opacity="0.2"/>
+  
+  <!-- X Official Vector Icon -->
+  <g transform="translate(16, 10)">
+    <path d="M12.6 1H15.1L9.6 7.3L16 15.8H11L7.1 10.6L2.6 15.8H0.1L5.9 9.1L0 1H5.1L8.6 5.6L12.6 1ZM11.7 14.3H13.1L4.4 2.4H2.9L11.7 14.3Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Text -->
+  <text x="44" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" letter-spacing="0.2">
+    X
+  </text>
+</svg>
