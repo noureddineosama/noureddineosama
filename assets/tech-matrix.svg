@@ -1,0 +1,187 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card Background Gradient -->
+    <linearGradient id="bgMatrix" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <!-- Top Accent Bar -->
+    <linearGradient id="matrixAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect width="900" height="320" rx="12" fill="url(#bgMatrix)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="318.5" rx="11.25" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="12" y="1" width="876" height="3" rx="1.5" fill="url(#matrixAccent)"/>
+
+  <!-- ═══════════════════ LEFT COLUMN (x=24, width=416) ═══════════════════ -->
+
+  <!-- Card 1: Languages & Runtime (y=20, h=84) -->
+  <g transform="translate(24, 20)">
+    <rect width="416" height="84" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#6366F1" letter-spacing="0.5">
+      LANGUAGES &amp; RUNTIME
+    </text>
+    <!-- Chips Row -->
+    <g transform="translate(14, 38)">
+      <rect width="58" height="26" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+      <text x="29" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#6D28D9" text-anchor="middle">C# 13</text>
+
+      <rect x="66" width="68" height="26" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="100" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">.NET 10</text>
+
+      <rect x="142" width="50" height="26" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0F172A" text-anchor="middle">SQL</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Frameworks & APIs (y=116, h=88) -->
+  <g transform="translate(24, 116)">
+    <rect width="416" height="88" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="0.5">
+      FRAMEWORKS &amp; WEB APIS
+    </text>
+    <!-- Chips Row 1 -->
+    <g transform="translate(14, 36)">
+      <rect width="112" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="56" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#0369A1" text-anchor="middle">ASP.NET Core</text>
+
+      <rect x="120" width="70" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="155" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">EF Core</text>
+
+      <rect x="198" width="62" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="229" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">Dapper</text>
+
+      <rect x="268" width="66" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="301" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">SignalR</text>
+    </g>
+    <!-- Chips Row 2 -->
+    <g transform="translate(14, 64)">
+      <rect width="118" height="18" rx="4" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+      <text x="59" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#6D28D9" text-anchor="middle">MediatR (CQRS)</text>
+
+      <rect x="126" width="102" height="18" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="177" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#475569" text-anchor="middle">RESTful APIs</text>
+    </g>
+  </g>
+
+  <!-- Card 3: Architecture & Patterns (y=216, h=88) -->
+  <g transform="translate(24, 216)">
+    <rect width="416" height="88" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0D9488" letter-spacing="0.5">
+      ARCHITECTURE &amp; PATTERNS
+    </text>
+    <!-- Chips Row 1 -->
+    <g transform="translate(14, 36)">
+      <rect width="128" height="24" rx="6" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1"/>
+      <text x="64" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#0F766E" text-anchor="middle">Clean Architecture</text>
+
+      <rect x="136" width="54" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="163" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">SOLID</text>
+
+      <rect x="198" width="56" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="226" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">CQRS</text>
+
+      <rect x="262" width="52" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="288" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">DDD</text>
+    </g>
+    <!-- Chips Row 2 -->
+    <g transform="translate(14, 64)">
+      <rect width="122" height="18" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="61" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#475569" text-anchor="middle">Repository Pattern</text>
+
+      <rect x="130" width="138" height="18" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="199" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#475569" text-anchor="middle">Dependency Injection</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════ RIGHT COLUMN (x=460, width=416) ═══════════════════ -->
+
+  <!-- Card 4: Databases & Storage (y=20, h=84) -->
+  <g transform="translate(460, 20)">
+    <rect width="416" height="84" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="0.5">
+      DATABASES &amp; CACHING
+    </text>
+    <!-- Chips Row -->
+    <g transform="translate(14, 38)">
+      <rect width="90" height="26" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="45" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0369A1" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="98" width="88" height="26" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="142" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="middle">SQL Server</text>
+
+      <rect x="194" width="94" height="26" rx="6" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+      <text x="241" y="17.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">Redis Cache</text>
+    </g>
+  </g>
+
+  <!-- Card 5: DevOps & Cloud (y=116, h=88) -->
+  <g transform="translate(460, 116)">
+    <rect width="416" height="88" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2563EB" letter-spacing="0.5">
+      DEVOPS &amp; CLOUD
+    </text>
+    <!-- Chips Row 1 -->
+    <g transform="translate(14, 36)">
+      <rect width="66" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="33" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#0284C7" text-anchor="middle">Docker</text>
+
+      <rect x="74" width="144" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="146" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">GitHub Actions (CI/CD)</text>
+
+      <rect x="226" width="60" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="256" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#0078D4" text-anchor="middle">Azure</text>
+
+      <rect x="294" width="76" height="24" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="332" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#15803D" text-anchor="middle">Supabase</text>
+    </g>
+    <!-- Subtitle -->
+    <text x="14" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#64748B">
+      Automated build pipelines, containerized deployments &amp; cloud services
+    </text>
+  </g>
+
+  <!-- Card 6: Tooling & Workflow (y=216, h=88) -->
+  <g transform="translate(460, 216)">
+    <rect width="416" height="88" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">
+      DEVELOPER TOOLING &amp; WORKFLOW
+    </text>
+    <!-- Chips Row 1 -->
+    <g transform="translate(14, 36)">
+      <rect width="44" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="22" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#1E293B" text-anchor="middle">Git</text>
+
+      <rect x="52" width="72" height="24" rx="6" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+      <text x="88" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#EA580C" text-anchor="middle">Postman</text>
+
+      <rect x="132" width="76" height="24" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="170" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#16A34A" text-anchor="middle">Swagger</text>
+
+      <rect x="216" width="94" height="24" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+      <text x="263" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#6D28D9" text-anchor="middle">Visual Studio</text>
+
+      <rect x="318" width="56" height="24" rx="6" fill="#FDF2F8" stroke="#FBCFE8" stroke-width="1"/>
+      <text x="346" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#BE185D" text-anchor="middle">Rider</text>
+    </g>
+    <!-- Subtitle -->
+    <text x="14" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#64748B">
+      Full API debugging, interactive docs, testing &amp; modern IDE tooling
+    </text>
+  </g>
+</svg>

@@ -57,44 +57,9 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix.svg" alt="Technologies & Frameworks Matrix" width="100%" />
 
-<table align="center">
-  <thead>
-    <tr>
-      <th align="left">Category</th>
-      <th align="left">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Languages</b></td>
-      <td>C# &nbsp;·&nbsp; SQL</td>
-    </tr>
-    <tr>
-      <td><b>Frameworks</b></td>
-      <td>ASP.NET Core Web API &nbsp;·&nbsp; .NET 10 &nbsp;·&nbsp; Entity Framework Core &nbsp;·&nbsp; Dapper &nbsp;·&nbsp; MediatR &nbsp;·&nbsp; SignalR</td>
-    </tr>
-    <tr>
-      <td><b>Architecture</b></td>
-      <td>Clean Architecture &nbsp;·&nbsp; CQRS &nbsp;·&nbsp; Repository Pattern &nbsp;·&nbsp; SOLID &nbsp;·&nbsp; Dependency Injection</td>
-    </tr>
-    <tr>
-      <td><b>Databases</b></td>
-      <td>PostgreSQL &nbsp;·&nbsp; Microsoft SQL Server &nbsp;·&nbsp; Redis Cache</td>
-    </tr>
-    <tr>
-      <td><b>DevOps & Cloud</b></td>
-      <td>Docker &nbsp;·&nbsp; GitHub Actions (CI/CD) &nbsp;·&nbsp; Azure &nbsp;·&nbsp; Supabase</td>
-    </tr>
-    <tr>
-      <td><b>Tools</b></td>
-      <td>Git &nbsp;·&nbsp; Postman &nbsp;·&nbsp; Swagger / OpenAPI &nbsp;·&nbsp; Visual Studio &nbsp;·&nbsp; Rider</td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
+<br/>
 
 <!-- ════════════════════════════════════════════════════════════════════════════
      GITHUB STATS
