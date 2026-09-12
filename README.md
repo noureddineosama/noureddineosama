@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
@@ -49,7 +49,7 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v2.svg" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v3.svg" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
