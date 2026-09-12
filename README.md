@@ -6,7 +6,7 @@
 <br/>
 
 <!-- ─── CONNECT BUTTONS ────────────────────────────────────────────────────── -->
-<a href="https://www.linkedin.com/in/noureddineosama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>&nbsp;&nbsp;<a href="mailto:noureddine.osama@outlook.com"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" /></a>&nbsp;&nbsp;<a href="https://x.com/noureddineosama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" /></a>
+<a href="https://www.linkedin.com/in/noureddine-osama-a62843430/" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>&nbsp;&nbsp;<a href="mailto:noureddine.connect@outlook.com"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" /></a>&nbsp;&nbsp;<a href="https://x.com/NoureddineOsama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" /></a>
 
 <br/>
 
