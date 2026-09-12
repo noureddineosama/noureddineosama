@@ -59,21 +59,12 @@ I concentrate on practical software engineering — translating business require
 
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg" alt="GitHub Stats" width="100%" />
 
+
 <br/>
 
 <div align="center">
 
-<div align="center">
-
-<!-- Row 1: Stats + Languages -->
-<img src="https://github-readme-stats.vercel.app/api?username=noureddineosama&show_icons=true&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=334155&icon_color=6366F1&border_color=E2E8F0&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats" height="180" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noureddineosama&layout=compact&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=334155&border_color=E2E8F0&hide_border=false&langs_count=6" alt="Top Languages" height="180" />
-
-<br/><br/>
-
-<!-- Row 2: Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false&card_width=700" alt="GitHub Streak" width="80%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false" alt="GitHub Streak" width="750" />
 
 </div>
 
