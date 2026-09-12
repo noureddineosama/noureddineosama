@@ -1,0 +1,33 @@
+<svg width="900" height="60" viewBox="0 0 900 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="60" rx="8" fill="#FFFFFF"/>
+  <rect x="0.75" y="0.75" width="898.5" height="58.5" rx="7.25" stroke="#D0D7DE" stroke-width="1.5"/>
+
+  <!-- LinkedIn Button -->
+  <rect x="228" y="12" width="120" height="36" rx="6" fill="#0A66C2"/>
+  <text x="258" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">LinkedIn</text>
+
+  <!-- in icon circle -->
+  <rect x="237" y="20" width="16" height="16" rx="3" fill="#FFFFFF"/>
+  <text x="240" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#0A66C2">in</text>
+
+  <!-- Outlook Button -->
+  <rect x="364" y="12" width="122" height="36" rx="6" fill="#0078D4"/>
+  <text x="397" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Outlook</text>
+  <!-- envelope icon -->
+  <rect x="373" y="20" width="16" height="12" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M373 22 L381 28 L389 22" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- X / Twitter Button -->
+  <rect x="502" y="12" width="80" height="36" rx="6" fill="#000000"/>
+  <text x="531" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">X</text>
+  <!-- X icon -->
+  <text x="512" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">&#x2715;</text>
+
+  <!-- GitHub Button -->
+  <rect x="598" y="12" width="110" height="36" rx="6" fill="#24292F"/>
+  <text x="625" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">GitHub</text>
+  <!-- GH circle -->
+  <circle cx="614" cy="30" r="7" fill="#FFFFFF"/>
+  <text x="610" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="800" fill="#24292F">gh</text>
+</svg>

@@ -3,18 +3,14 @@
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
-<br/>
-
-<!-- ─── TYPING ANIMATION ──────────────────────────────────────────────────── -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Building+Robust+%26+Scalable+Backend+Systems;ASP.NET+Core+%E2%80%A2+Clean+Architecture+%E2%80%A2+CQRS;Designing+Resilient+APIs+%26+Microservices;High-Performance+C%23+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing Animation" />
-
 <br/><br/>
 
-<!-- ─── CONNECT BADGES ─────────────────────────────────────────────────────── -->
+<!-- ─── CONNECT BUTTONS ────────────────────────────────────────────────────── -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="24"/></a>&nbsp;
-  <a href="mailto:noureddineosama45196@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" height="24"/></a>&nbsp;
-  <a href="https://github.com/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/GitHub-24292F?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="24"/></a>
+  <a href="https://www.linkedin.com/in/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:noureddine.osama@outlook.com"><img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Outlook" /></a>&nbsp;
+  <a href="https://x.com/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>&nbsp;
+  <a href="https://github.com/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 </div>
