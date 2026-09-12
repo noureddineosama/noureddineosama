@@ -1,28 +1,20 @@
 <div align="center">
 
 <!-- Luxury Hero Header Banner -->
-<img src="./assets/header-banner.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-banner.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
 
-<br/><br/>
+<br/>
 
 <!-- Dynamic Terminal Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Building+Robust+%26+Scalable+Backend+Systems;ASP.NET+Core+%E2%80%A2+Clean+Architecture+%E2%80%A2+CQRS;Crafting+Resilient+RESTful+APIs+%26+Data+Pipelines;Database+Optimization+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Building+Robust+%26+Scalable+Backend+Systems;ASP.NET+Core+%E2%80%A2+Clean+Architecture+%E2%80%A2+CQRS;Designing+Resilient+APIs+%26+Microservices;High-Performance+C%23+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing Animation" />
 
 <br/><br/>
 
 <!-- Premium Connect Badges -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:noureddineosama45196@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="32"/>
-  </a>
+  <a href="https://www.linkedin.com/in/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="28"/></a>&nbsp;&nbsp;
+  <a href="mailto:noureddineosama45196@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="28"/></a>&nbsp;&nbsp;
+  <a href="https://github.com/noureddineosama" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="28"/></a>
 </p>
 
 </div>
