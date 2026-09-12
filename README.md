@@ -49,7 +49,7 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix.svg" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v2.svg" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
