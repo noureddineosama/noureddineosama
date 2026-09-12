@@ -28,11 +28,18 @@ I concentrate on practical software engineering — translating business require
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v8.svg" alt="Technologies & Frameworks Matrix" />
-
 </div>
+
+<br/>
+
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| ⚡ **Languages & Runtime** | `C# 14` `·` `.NET 10` `·` `ASP.NET Core` `·` `EF Core` |
+| 🗄️ **Databases & Storage** | `PostgreSQL` `·` `SQL Server` `·` `Redis` `·` `T-SQL` |
+| 🔌 **APIs & Messaging** | `RESTful APIs` `·` `MediatR` `·` `Dapper` `·` `SignalR` |
+| ☁️ **Cloud & DevOps** | `Docker` `·` `GitHub Actions` `·` `Azure` `·` `CI/CD Pipelines` |
+| 🏛️ **Architecture & Design** | `Clean Architecture` `·` `CQRS` `·` `DDD` `·` `SOLID Principles` |
+| 🧪 **Testing & Quality** | `xUnit` `·` `Moq` `·` `FluentAssertions` `·` `Integration Tests` |
 
 <br/>
 
