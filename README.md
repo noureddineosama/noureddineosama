@@ -3,20 +3,12 @@
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
-<br/>
+<br/><br/>
 
 <!-- ─── CONNECT BUTTONS ────────────────────────────────────────────────────── -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
-    <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:noureddine.osama@outlook.com">
-    <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" />
-  </a>&nbsp;&nbsp;
-  <a href="https://x.com/noureddineosama" target="_blank">
-    <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" />
-  </a>
-</p>
+<a href="https://www.linkedin.com/in/noureddineosama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>&nbsp;&nbsp;<a href="mailto:noureddine.osama@outlook.com"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" /></a>&nbsp;&nbsp;<a href="https://x.com/noureddineosama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" /></a>
+
+<br/><br/>
 
 </div>
 
