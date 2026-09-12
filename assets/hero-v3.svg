@@ -1,0 +1,139 @@
+<svg viewBox="0 0 650 320" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:650px;display:block;">
+  <defs>
+    <!-- Vibrant Glowing Border -->
+    <linearGradient id="borderGradHero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="35%" stop-color="#6366F1"/>
+      <stop offset="70%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Top Accent Bar Gradient -->
+    <linearGradient id="topBarClean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="70%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="heroGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-text { fill: #0F172A; }
+    .subtitle-text { fill: #475569; }
+    .breadcrumb-text { fill: #64748B; }
+    .chip-bg { fill: rgba(148, 163, 184, 0.08); stroke: rgba(148, 163, 184, 0.3); }
+    .chip-text { fill: #1E293B; }
+    .role-bg { fill: rgba(2, 132, 199, 0.12); stroke: #0284C7; }
+    .role-text { fill: #0284C7; }
+    .divider-line { stroke: rgba(148, 163, 184, 0.25); }
+
+    @media (prefers-color-scheme: dark) {
+      .title-text { fill: #FFFFFF; }
+      .subtitle-text { fill: #94A3B8; }
+      .breadcrumb-text { fill: #8B949E; }
+      .chip-bg { fill: rgba(255, 255, 255, 0.08); stroke: rgba(255, 255, 255, 0.2); }
+      .chip-text { fill: #F0F6FC; }
+      .role-bg { fill: rgba(56, 189, 248, 0.15); stroke: #38BDF8; }
+      .role-text { fill: #38BDF8; }
+      .divider-line { stroke: rgba(255, 255, 255, 0.15); }
+    }
+  </style>
+
+  <!-- Clear Vibrant Outer Frame -->
+  <rect x="0.75" y="0.75" width="648.5" height="318.5" rx="14" stroke="url(#borderGradHero)" stroke-width="1.5" fill="url(#heroGlass)"/>
+
+  <!-- Top Accent Line -->
+  <rect x="12" y="1" width="626" height="3" rx="1.5" fill="url(#topBarClean)"/>
+
+  <!-- WINDOW CONTROLS & BREADCRUMB -->
+  <circle cx="28" cy="24" r="5" fill="#EF4444" fill-opacity="0.85"/>
+  <circle cx="44" cy="24" r="5" fill="#F59E0B" fill-opacity="0.85"/>
+  <circle cx="60" cy="24" r="5" fill="#10B981" fill-opacity="0.85"/>
+
+  <text x="80" y="29" class="breadcrumb-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="500">
+    noureddine-osama / main / backend-developer.cs
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="20" y1="44" x2="630" y2="44" class="divider-line" stroke-width="1"/>
+
+  <!-- ROLE CAPSULE -->
+  <g transform="translate(24, 58)">
+    <rect width="216" height="28" rx="14" class="role-bg" stroke-width="1.2"/>
+    <!-- Bolt Icon -->
+    <path d="M16 15L20 8.5H25L21.5 13.5H26L18 20.5L19.5 15H16Z" fill="#0284C7"/>
+    <text x="32" y="19" class="role-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" letter-spacing="1">
+      .NET BACKEND DEVELOPER
+    </text>
+  </g>
+
+  <!-- MAIN NAME -->
+  <text x="24" y="132" class="title-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">
+    Noureddine Osama
+  </text>
+
+  <!-- VALUE STATEMENT / SUBTITLE -->
+  <text x="24" y="166" class="subtitle-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">
+    Building High-Performance APIs, Resilient Cloud Services &amp; Clean Domain Architectures
+  </text>
+
+  <!-- TECH CHIPS - ROW 1 -->
+  <g transform="translate(24, 202)">
+    <!-- Chip 1: C# 14 -->
+    <g transform="translate(0, 0)">
+      <rect width="74" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="37" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#8B5CF6" text-anchor="middle">C# 14</text>
+    </g>
+
+    <!-- Chip 2: .NET 10 -->
+    <g transform="translate(84, 0)">
+      <rect width="88" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="44" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#0284C7" text-anchor="middle">.NET 10</text>
+    </g>
+
+    <!-- Chip 3: ASP.NET Core -->
+    <g transform="translate(182, 0)">
+      <rect width="140" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="70" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#0284C7" text-anchor="middle">ASP.NET Core</text>
+    </g>
+
+    <!-- Chip 4: Clean Architecture -->
+    <g transform="translate(332, 0)">
+      <rect width="166" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="83" y="22" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" text-anchor="middle">Clean Architecture</text>
+    </g>
+  </g>
+
+  <!-- TECH CHIPS - ROW 2 -->
+  <g transform="translate(24, 252)">
+    <!-- Chip 5: CQRS / MediatR -->
+    <g transform="translate(0, 0)">
+      <rect width="150" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="75" y="22" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" text-anchor="middle">CQRS / MediatR</text>
+    </g>
+
+    <!-- Chip 6: PostgreSQL -->
+    <g transform="translate(160, 0)">
+      <rect width="116" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="58" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#38BDF8" text-anchor="middle">PostgreSQL</text>
+    </g>
+
+    <!-- Chip 7: Docker -->
+    <g transform="translate(286, 0)">
+      <rect width="86" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="43" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#10B981" text-anchor="middle">Docker</text>
+    </g>
+
+    <!-- Chip 8: Redis -->
+    <g transform="translate(382, 0)">
+      <rect width="78" height="34" rx="8" class="chip-bg" stroke-width="1"/>
+      <text x="39" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#EF4444" text-anchor="middle">Redis</text>
+    </g>
+  </g>
+</svg>
