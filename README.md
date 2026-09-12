@@ -11,7 +11,6 @@
 
 <br/>
 
-<!-- Social Badges -->
 <p align="center">
   <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="26"/>
@@ -98,19 +97,11 @@ I concentrate on practical software engineering: translating business requiremen
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Streak
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&hide_border=true&background=FFFFFF00&stroke=E5E7EB&ring=0969DA&fire=F97316&currStreakNum=111827&sideNums=111827&currStreakLabel=0969DA&sideLabels=6B7280&dates=9CA3AF" alt="GitHub Streak" width="55%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=noureddineosama&bg_color=ffffff&color=111827&line=0969DA&point=0969DA&area=true&area_color=DBEAFE&hide_border=true" alt="Contribution Graph" width="95%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=0969DA&fire=F97316&currStreakLabel=0969DA" alt="GitHub Streak" width="55%"/>
 
 </div>
 
