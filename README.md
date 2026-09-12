@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-light.svg?v=7" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
      ABOUT ME
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-about.svg?v=7" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about.svg" alt="About Me" width="100%" />
 
 <br/>
 
@@ -42,7 +42,7 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-stack.svg?v=7" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack.svg" alt="Tech Stack" width="100%" />
 
 <br/>
 
@@ -68,7 +68,7 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-stats.svg?v=7" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg" alt="GitHub Stats" width="100%" />
 
 <br/>
 

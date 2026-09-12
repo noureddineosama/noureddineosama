@@ -1,0 +1,52 @@
+<svg width="900" height="60" viewBox="0 0 900 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgAboutClean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderAboutClean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <!-- Accent Bar Gradient -->
+    <linearGradient id="barAboutClean" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="900" height="60" rx="10" fill="url(#bgAboutClean)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="58.5" rx="9.25" stroke="url(#borderAboutClean)" stroke-width="1.5"/>
+
+  <!-- Left Accent Bar -->
+  <path d="M0 10C0 4.477 4.477 0 10 0H14V60H10C4.477 60 0 55.523 0 50V10Z" fill="url(#barAboutClean)"/>
+
+  <!-- Left Icon Badge -->
+  <g transform="translate(28, 12)">
+    <rect width="36" height="36" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <!-- Terminal / Code Icon -->
+    <path d="M12 14L16 18L12 22M19 22H24" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Section Text -->
+  <g transform="translate(76, 0)">
+    <!-- Category Mono Tag -->
+    <text x="0" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#0284C7" letter-spacing="1.2">
+      // 01. PROFILE &amp; PHILOSOPHY
+    </text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <tspan font-size="16" font-weight="800" fill="#0F172A">About Me</tspan>
+      <tspan dx="10" font-size="13" font-weight="500" fill="#64748B">— Backend Engineer focused on clean, scalable systems</tspan>
+    </text>
+  </g>
+</svg>
