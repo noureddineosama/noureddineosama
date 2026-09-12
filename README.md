@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Noureddine+Osama;.NET+Backend+Developer;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+PostgreSQL;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+SOLID;Building+Robust+%26+Scalable+Backends" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Noureddine+Osama;.NET+Backend+Developer;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+PostgreSQL;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+SOLID;Building+Robust+%26+Scalable+Backends" alt="Typing SVG" />
 
 <br/>
 
@@ -11,21 +11,21 @@
 
 <br/>
 
-<!-- Social Badges (clean single-color style) -->
+<!-- Social Badges -->
 <p align="center">
   <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="28"/>
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="26"/>
   </a>
   &nbsp;
   <a href="mailto:noureddineosama45196@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" height="28"/>
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" height="26"/>
   </a>
   &nbsp;
   <a href="https://github.com/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="28"/>
+    <img src="https://img.shields.io/badge/-GitHub-24292F?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="26"/>
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=noureddineosama&style=flat-square&color=38BDF8&label=Profile+Views" alt="Profile Views" height="28"/>
+  <img src="https://komarev.com/ghpvc/?username=noureddineosama&style=flat-square&color=0969DA&label=Profile+Views" alt="Profile Views" height="26"/>
 </p>
 
 </div>
@@ -102,7 +102,7 @@ I concentrate on practical software engineering: translating business requiremen
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="55%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&hide_border=true&background=FFFFFF00&stroke=E5E7EB&ring=0969DA&fire=F97316&currStreakNum=111827&sideNums=111827&currStreakLabel=0969DA&sideLabels=6B7280&dates=9CA3AF" alt="GitHub Streak" width="55%"/>
 
 </div>
 
@@ -110,7 +110,7 @@ I concentrate on practical software engineering: translating business requiremen
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=noureddineosama&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=noureddineosama&bg_color=ffffff&color=111827&line=0969DA&point=0969DA&area=true&area_color=DBEAFE&hide_border=true" alt="Contribution Graph" width="95%"/>
 
 </div>
 
