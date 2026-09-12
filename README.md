@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🚀 HERO BANNER 🚀 -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v5.svg" alt="Noureddine Osama - .NET Backend Developer" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v6.svg" alt="Noureddine Osama - .NET Backend Developer" />
 
 <br/><br/>
 
@@ -10,15 +10,12 @@
 
 <br/><br/>
 
+<!-- 👤 ABOUT ME 👤 -->
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v6.svg" alt="About Me" />
+
 </div>
 
-<!-- 👤
-     ABOUT ME
-     👤 -->
-
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v5.svg" alt="About Me" height="42" />
-
-<br/><br/>
+<br/>
 
 I'm a **.NET Backend Developer** focused on building robust, maintainable, and scalable backend applications with **C#** and **ASP.NET Core**.
 
@@ -26,46 +23,31 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<!-- 🛠️
-     TECH STACK
-     🛠️ -->
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v5.svg" alt="Tech Stack" height="42" />
+<!-- 🛠️ TECH STACK 🛠️ -->
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v6.svg" alt="Tech Stack" />
 
 <br/><br/>
-
-<div align="center">
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v7.svg" alt="Technologies & Frameworks Matrix" />
-
-</div>
-
-<br/>
-
-<!-- 📊
-     GITHUB STATS
-     📊 -->
-
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v5.svg" alt="GitHub Stats" height="42" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v8.svg" alt="Technologies & Frameworks Matrix" />
 
 <br/><br/>
 
-<div align="center">
+<!-- 📊 GITHUB STATS 📊 -->
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v6.svg" alt="GitHub Stats" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=transparent&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=8B949E&dates=8B949E&sideNums=38BDF8&currStreakNum=38BDF8&border=0284C7&hide_border=false&border_radius=10&timezone=Africa%2FCairo&starting_year=2026" alt="GitHub Streak" width="100%" style="max-width:750px" />
+<br/><br/>
 
-</div>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=transparent&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=8B949E&dates=8B949E&sideNums=38BDF8&currStreakNum=38BDF8&border=0284C7&hide_border=false&border_radius=10&timezone=Africa%2FCairo&starting_year=2026" alt="GitHub Streak" width="100%" style="max-width:820px" />
 
-<br/>
+<br/><br/>
 
-<!-- 🌟
-     FOOTER
-     🌟 -->
+<!-- 🌟 FOOTER 🌟 -->
+<sub><i>"Clean code always looks like it was written by someone who cares." — Robert C. Martin</i></sub>
 
-<div align="center">
-  <sub><i>"Clean code always looks like it was written by someone who cares." — Robert C. Martin</i></sub>
 </div>
