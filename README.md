@@ -1,22 +1,22 @@
 <div align="center">
 
-<!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v2.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<!-- 🚀 HERO BANNER 🚀 -->
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-v3.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
 
 <br/>
 
-<!-- ─── CONNECT BUTTONS ────────────────────────────────────────────────────── -->
+<!-- ⚡ CONNECT BUTTONS ⚡ -->
 <a href="https://www.linkedin.com/in/noureddine-osama-a62843430/" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>&nbsp;&nbsp;<a href="mailto:noureddine.connect@outlook.com"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" /></a>&nbsp;&nbsp;<a href="https://x.com/NoureddineOsama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" /></a>
 
 <br/>
 
 </div>
 
-<!-- ════════════════════════════════════════════════════════════════════════════
+<!-- 👤
      ABOUT ME
-     ════════════════════════════════════════════════════════════════════════ -->
+     👤 -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v2.svg" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about-v3.svg" alt="About Me" width="100%" />
 
 <br/>
 
@@ -24,14 +24,13 @@ I'm a **.NET Backend Developer** focused on building robust, maintainable, and s
 
 I concentrate on practical software engineering — translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
 
-
 <br/>
 
-<!-- ════════════════════════════════════════════════════════════════════════════
+<!-- 🛠️
      TECH STACK
-     ════════════════════════════════════════════════════════════════════════ -->
+     🛠️ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v2.svg" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack-v3.svg" alt="Tech Stack" width="100%" />
 
 <br/>
 
@@ -43,16 +42,15 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v4.svg" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-v5.svg" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
-<!-- ════════════════════════════════════════════════════════════════════════════
+<!-- 📊
      GITHUB STATS
-     ════════════════════════════════════════════════════════════════════════ -->
+     📊 -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v2.svg" alt="GitHub Stats" width="100%" />
-
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats-v3.svg" alt="GitHub Stats" width="100%" />
 
 <br/>
 
@@ -64,9 +62,9 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<!-- ════════════════════════════════════════════════════════════════════════════
+<!-- 🌟
      FOOTER
-     ════════════════════════════════════════════════════════════════════════ -->
+     🌟 -->
 
 <div align="center">
   <sub><i>"Clean code always looks like it was written by someone who cares." — Robert C. Martin</i></sub>
