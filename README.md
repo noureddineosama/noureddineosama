@@ -27,16 +27,14 @@
 
 I'm a **.NET Backend Developer** focused on building robust, maintainable, and scalable backend applications with **C#** and **ASP.NET Core**.
 
-I concentrate on practical software engineering: translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
+I concentrate on practical software engineering — translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
 
-| | |
-|:--|:--|
-| **Primary Stack** | C# &nbsp;·&nbsp; .NET 10 &nbsp;·&nbsp; ASP.NET Core &nbsp;·&nbsp; Entity Framework Core &nbsp;·&nbsp; LINQ |
-| **Architecture** | Clean Architecture &nbsp;·&nbsp; Domain-Driven Design &nbsp;·&nbsp; MediatR (CQRS) &nbsp;·&nbsp; Repository Pattern |
-| **Databases** | PostgreSQL &nbsp;·&nbsp; Microsoft SQL Server &nbsp;·&nbsp; Redis |
-| **Best Practices** | Async/await &nbsp;·&nbsp; Global Exception Handling &nbsp;·&nbsp; Structured Logging &nbsp;·&nbsp; Rate Limiting |
-| **Currently Building** | Enterprise telemetry platforms &nbsp;·&nbsp; Online coding infrastructure &nbsp;·&nbsp; Clean REST APIs |
-| **Open to** | Backend engineering roles &nbsp;·&nbsp; Internships &nbsp;·&nbsp; Collaborative projects |
+- 🔹 **Primary Stack** — C# · .NET 10 · ASP.NET Core · Entity Framework Core · LINQ
+- 🏗️ **Architecture** — Clean Architecture · Domain-Driven Design · MediatR (CQRS) · Repository Pattern
+- 🗄️ **Databases** — PostgreSQL · Microsoft SQL Server · Redis
+- ⚙️ **Best Practices** — Async/await · Global Exception Handling · Structured Logging · Rate Limiting
+- 🚀 **Currently Building** — Enterprise telemetry platforms · Online coding infrastructure · Clean REST APIs
+- 📬 **Open to** — Backend engineering roles · Internships · Collaborative projects
 
 <br/>
 
