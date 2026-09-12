@@ -1,4 +1,4 @@
-<svg width="900" height="52" viewBox="0 0 900 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="60" viewBox="0 0 900 60" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="barStack" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#6366F1"/>
@@ -7,24 +7,29 @@
   </defs>
 
   <style>
+    .card-frame { stroke: #E2E8F0; fill: rgba(255, 255, 255, 0.4); }
     .title-main { fill: #0F172A; }
     .title-sub { fill: #64748B; }
     .tag-text { fill: #6366F1; }
-    .icon-box { fill: rgba(99, 102, 241, 0.08); stroke: rgba(99, 102, 241, 0.3); }
+    .icon-box { fill: #F5F3FF; stroke: #DDD6FE; }
 
     @media (prefers-color-scheme: dark) {
+      .card-frame { stroke: #38444D; fill: rgba(22, 27, 34, 0.45); }
       .title-main { fill: #F0F6FC; }
       .title-sub { fill: #94A3B8; }
       .tag-text { fill: #A78BFA; }
-      .icon-box { fill: rgba(167, 139, 250, 0.12); stroke: rgba(167, 139, 250, 0.25); }
+      .icon-box { fill: rgba(167, 139, 250, 0.12); stroke: rgba(167, 139, 250, 0.3); }
     }
   </style>
 
+  <!-- Outer Card Frame (Visible in both Light and Dark mode) -->
+  <rect x="0.75" y="0.75" width="898.5" height="58.5" rx="10" class="card-frame" stroke-width="1.5"/>
+
   <!-- Left Accent Bar -->
-  <rect x="0" y="4" width="4" height="44" rx="2" fill="url(#barStack)"/>
+  <path d="M0 10C0 4.477 4.477 0 10 0H13V60H10C4.477 60 0 55.523 0 50V10Z" fill="url(#barStack)"/>
 
   <!-- Left Icon Badge -->
-  <g transform="translate(16, 8)">
+  <g transform="translate(26, 12)">
     <rect width="36" height="36" rx="8" class="icon-box" stroke-width="1"/>
     <!-- Stack / Layers Icon -->
     <path d="M18 12L10 16L18 20L26 16L18 12Z" stroke="#6366F1" stroke-width="1.8" stroke-linejoin="round"/>
@@ -32,14 +37,14 @@
   </g>
 
   <!-- Section Text -->
-  <g transform="translate(64, 0)">
+  <g transform="translate(74, 0)">
     <!-- Category Tag -->
-    <text x="0" y="19" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">
+    <text x="0" y="22" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">
       // 02. ARSENAL &amp; CAPABILITIES
     </text>
 
     <!-- Main Title & Subtitle -->
-    <text x="0" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
       <tspan font-size="16" font-weight="800" class="title-main">Tech Stack</tspan>
       <tspan dx="10" font-size="13" font-weight="500" class="title-sub">— Technologies, tools &amp; frameworks I build with daily</tspan>
     </text>

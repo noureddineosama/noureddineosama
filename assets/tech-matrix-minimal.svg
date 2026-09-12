@@ -1,14 +1,14 @@
-<svg width="860" height="284" viewBox="0 0 860 284" fill="none" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="860" height="284" viewBox="0 0 860 284" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .card-frame { stroke: rgba(148, 163, 184, 0.35); }
-    .divider-line { stroke: rgba(148, 163, 184, 0.2); }
+    .card-frame { stroke: #E2E8F0; fill: rgba(255, 255, 255, 0.4); }
+    .divider-line { stroke: #E2E8F0; }
     .cat-title { fill: #0F172A; }
     .chip-box { fill: rgba(148, 163, 184, 0.08); stroke: rgba(148, 163, 184, 0.25); }
     .chip-text { fill: #334155; }
 
     @media (prefers-color-scheme: dark) {
-      .card-frame { stroke: rgba(255, 255, 255, 0.15); }
-      .divider-line { stroke: rgba(255, 255, 255, 0.1); }
+      .card-frame { stroke: #38444D; fill: rgba(22, 27, 34, 0.45); }
+      .divider-line { stroke: #30363D; }
       .cat-title { fill: #F0F6FC; }
       .chip-box { fill: rgba(255, 255, 255, 0.06); stroke: rgba(255, 255, 255, 0.16); }
       .chip-text { fill: #E2E8F0; }

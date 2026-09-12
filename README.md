@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg?v=transparent" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg?v=framed" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
 <br/>
 
@@ -16,7 +16,7 @@
      ABOUT ME
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about.svg?v=transparent" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-about.svg?v=framed" alt="About Me" width="100%" />
 
 <br/>
 
@@ -31,7 +31,7 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack.svg?v=transparent" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stack.svg?v=framed" alt="Tech Stack" width="100%" />
 
 <br/>
 
@@ -43,7 +43,7 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-minimal.svg?v=transparent" alt="Technologies & Frameworks Matrix" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/tech-matrix-minimal.svg?v=framed" alt="Technologies & Frameworks Matrix" width="100%" />
 
 <br/>
 
@@ -51,7 +51,7 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg?v=transparent" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/title-stats.svg?v=framed" alt="GitHub Stats" width="100%" />
 
 
 <br/>
