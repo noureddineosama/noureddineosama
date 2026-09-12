@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- Profile View Counter -->
-<img src="https://komarev.com/ghpvc/?username=noureddineosama&label=Profile%20Views&color=38BDF8&style=flat-square" alt="profile views" />
-
 <!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Noureddine+Osama;.NET+Backend+Developer;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+PostgreSQL;Clean+Architecture+%E2%80%A2+SOLID+%E2%80%A2+CQRS;Building+Robust+%26+Scalable+Backends" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Noureddine+Osama;.NET+Backend+Developer;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+PostgreSQL;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+SOLID;Building+Robust+%26+Scalable+Backends" alt="Typing SVG" />
 
 <br/>
 
@@ -12,19 +9,23 @@
   <b>Backend Engineering &nbsp;•&nbsp; Clean Architecture &nbsp;•&nbsp; RESTful APIs &nbsp;•&nbsp; Scalable Systems</b>
 </p>
 
-<!-- Social Badges -->
+<br/>
+
+<!-- Social Badges (clean single-color style) -->
 <p align="center">
   <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="28"/>
   </a>
   &nbsp;
   <a href="mailto:noureddineosama45196@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" height="28"/>
   </a>
   &nbsp;
   <a href="https://github.com/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="28"/>
   </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=noureddineosama&style=flat-square&color=38BDF8&label=Profile+Views" alt="Profile Views" height="28"/>
 </p>
 
 </div>
@@ -50,7 +51,7 @@ I concentrate on practical software engineering: translating business requiremen
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,sqlserver,redis,docker,git,githubactions,azure,postman,swagger&perline=11" alt="Tech Stack Icons" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Stack Icons" />
 
 </div>
 
@@ -101,9 +102,7 @@ I concentrate on practical software engineering: translating business requiremen
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=noureddineosama&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats" width="48%" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noureddineosama&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="40%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="55%" />
 
 </div>
 
@@ -111,20 +110,12 @@ I concentrate on practical software engineering: translating business requiremen
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="60%" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=noureddineosama&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10" alt="GitHub Trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=noureddineosama&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="95%" />
 
 </div>
 
 ---
 
 <div align="center">
-  <i>💡 "Clean code always looks like it was written by someone who cares." — Robert C. Martin</i>
+  <sub>💡 <i>"Clean code always looks like it was written by someone who cares."</i> — Robert C. Martin</sub>
 </div>
