@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
@@ -24,12 +24,6 @@ I'm a **.NET Backend Developer** focused on building robust, maintainable, and s
 
 I concentrate on practical software engineering — translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
 
-- 🔹 **Primary Stack** — C# · .NET 10 · ASP.NET Core · Entity Framework Core · LINQ
-- 🏗️ **Architecture** — Clean Architecture · Domain-Driven Design · MediatR (CQRS) · Repository Pattern
-- 🗄️ **Databases** — PostgreSQL · Microsoft SQL Server · Redis
-- ⚙️ **Best Practices** — Async/await · Global Exception Handling · Structured Logging · Rate Limiting
-- 🚀 **Currently Building** — Enterprise telemetry platforms · Online coding infrastructure · Clean REST APIs
-- 📬 **Open to** — Backend engineering roles · Internships · Collaborative projects
 
 <br/>
 
