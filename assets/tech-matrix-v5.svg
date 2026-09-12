@@ -1,0 +1,193 @@
+<svg viewBox="0 0 650 540" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:650px;display:block;">
+  <defs>
+    <!-- Vibrant Glowing Outer Border -->
+    <linearGradient id="frameBorderMatrix" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="25%" stop-color="#6366F1"/>
+      <stop offset="70%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="glassBgMatrix" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .cat-title { fill: #0F172A; }
+    .chip-box { fill: rgba(148, 163, 184, 0.08); stroke: rgba(148, 163, 184, 0.3); }
+    .chip-text { fill: #1E293B; }
+    .inner-divider { stroke: rgba(148, 163, 184, 0.25); }
+
+    @media (prefers-color-scheme: dark) {
+      .cat-title { fill: #FFFFFF; }
+      .chip-box { fill: rgba(255, 255, 255, 0.08); stroke: rgba(255, 255, 255, 0.2); }
+      .chip-text { fill: #F0F6FC; }
+      .inner-divider { stroke: rgba(255, 255, 255, 0.15); }
+    }
+  </style>
+
+  <!-- Clear Vibrant Outer Frame -->
+  <rect x="0.75" y="0.75" width="648.5" height="538.5" rx="14" stroke="url(#frameBorderMatrix)" stroke-width="1.5" fill="url(#glassBgMatrix)"/>
+
+  <!-- Vertical Center Divider -->
+  <line x1="325" y1="20" x2="325" y2="520" class="inner-divider" stroke-width="1.5"/>
+
+  <!-- Horizontal Dividers -->
+  <line x1="20" y1="184" x2="310" y2="184" class="inner-divider" stroke-width="1"/>
+  <line x1="340" y1="184" x2="630" y2="184" class="inner-divider" stroke-width="1"/>
+  <line x1="20" y1="364" x2="310" y2="364" class="inner-divider" stroke-width="1"/>
+  <line x1="340" y1="364" x2="630" y2="364" class="inner-divider" stroke-width="1"/>
+
+  <!-- ==================== ROW 1 ==================== -->
+
+  <!-- Cell 1: Languages & Runtime -->
+  <g transform="translate(20, 24)">
+    <circle cx="5" cy="11" r="4.5" fill="#6366F1"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Languages &amp; Runtime</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">C# 14</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">.NET 10</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" text-anchor="middle">ASP.NET Core</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">EF Core</text>
+    </g>
+  </g>
+
+  <!-- Cell 2: Databases & Storage -->
+  <g transform="translate(340, 24)">
+    <circle cx="5" cy="11" r="4.5" fill="#0284C7"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Databases &amp; Storage</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">SQL Server</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Redis</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">T-SQL</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 2 ==================== -->
+
+  <!-- Cell 3: APIs & Messaging -->
+  <g transform="translate(20, 204)">
+    <circle cx="5" cy="11" r="4.5" fill="#0D9488"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">APIs &amp; Messaging</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">RESTful APIs</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">MediatR</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Dapper</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">SignalR</text>
+    </g>
+  </g>
+
+  <!-- Cell 4: DevOps & Cloud -->
+  <g transform="translate(340, 204)">
+    <circle cx="5" cy="11" r="4.5" fill="#7C3AED"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Cloud &amp; DevOps</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Docker</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">GitHub Actions</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Azure</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">CI/CD Pipelines</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 3 ==================== -->
+
+  <!-- Cell 5: Architecture & Patterns -->
+  <g transform="translate(20, 384)">
+    <circle cx="5" cy="11" r="4.5" fill="#E11D48"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Architecture &amp; Design</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Clean Architecture</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">CQRS Pattern</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">DDD Concepts</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">SOLID Principles</text>
+    </g>
+  </g>
+
+  <!-- Cell 6: Testing & Quality -->
+  <g transform="translate(340, 384)">
+    <circle cx="5" cy="11" r="4.5" fill="#10B981"/>
+    <text x="18" y="16" class="cat-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Testing &amp; Quality</text>
+
+    <!-- Sub-row 1 -->
+    <g transform="translate(0, 36)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">xUnit</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Moq</text>
+    </g>
+
+    <!-- Sub-row 2 -->
+    <g transform="translate(0, 82)">
+      <rect width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="69" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" text-anchor="middle">FluentAssertions</text>
+
+      <rect x="152" width="138" height="36" rx="8" class="chip-box" stroke-width="1"/>
+      <text x="221" y="23" class="chip-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">Integration Tests</text>
+    </g>
+  </g>
+</svg>
