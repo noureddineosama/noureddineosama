@@ -1,0 +1,58 @@
+<svg viewBox="0 0 320 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;">
+  <defs>
+    <!-- Vibrant Glowing Border -->
+    <linearGradient id="badgeBorderStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="badgeGlassStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <!-- Left Accent Bar -->
+    <linearGradient id="barStackPill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-main { fill: #0F172A; }
+    .tag-text { fill: #6366F1; }
+    .icon-box { fill: rgba(99, 102, 241, 0.12); stroke: #6366F1; }
+
+    @media (prefers-color-scheme: dark) {
+      .title-main { fill: #FFFFFF; }
+      .tag-text { fill: #A78BFA; }
+      .icon-box { fill: rgba(167, 139, 250, 0.15); stroke: #A78BFA; }
+    }
+  </style>
+
+  <!-- Frame -->
+  <rect x="0.75" y="0.75" width="318.5" height="46.5" rx="10" stroke="url(#badgeBorderStack)" stroke-width="1.5" fill="url(#badgeGlassStack)"/>
+
+  <!-- Left Accent -->
+  <path d="M0 10C0 4.477 4.477 0 10 0H12V48H10C4.477 48 0 43.523 0 38V10Z" fill="url(#barStackPill)"/>
+
+  <!-- Icon Badge -->
+  <g transform="translate(20, 9)">
+    <rect width="30" height="30" rx="7" class="icon-box" stroke-width="1"/>
+    <!-- Layers Icon -->
+    <path d="M15 9L9 13L15 17L21 13L15 9Z" stroke="#6366F1" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M9 16L15 20L21 16" stroke="#6366F1" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(60, 0)">
+    <text x="0" y="19" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1">
+      // 02. ARSENAL &amp; CAPABILITIES
+    </text>
+    <text x="0" y="37" class="title-main" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="-0.3">
+      Tech Stack
+    </text>
+  </g>
+</svg>
