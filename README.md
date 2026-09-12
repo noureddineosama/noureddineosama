@@ -1,27 +1,27 @@
 <div align="center">
 
-<!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Noureddine+Osama;.NET+Backend+Developer;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+PostgreSQL;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+SOLID;Building+Robust+%26+Scalable+Backends" alt="Typing SVG" />
+<!-- Luxury Hero Header Banner -->
+<img src="./assets/header-banner.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
 
-<br/>
+<br/><br/>
 
-<p align="center">
-  <b>Backend Engineering &nbsp;•&nbsp; Clean Architecture &nbsp;•&nbsp; RESTful APIs &nbsp;•&nbsp; Scalable Systems</b>
-</p>
+<!-- Dynamic Terminal Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=700&lines=Building+Robust+%26+Scalable+Backend+Systems;ASP.NET+Core+%E2%80%A2+Clean+Architecture+%E2%80%A2+CQRS;Crafting+Resilient+RESTful+APIs+%26+Data+Pipelines;Database+Optimization+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing Animation" />
 
-<br/>
+<br/><br/>
 
+<!-- Premium Connect Badges -->
 <p align="center">
   <a href="https://www.linkedin.com/in/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="26"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32"/>
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="mailto:noureddineosama45196@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" height="26"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32"/>
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/noureddineosama" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-24292F?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="26"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="32"/>
   </a>
 </p>
 
