@@ -1,0 +1,64 @@
+<svg viewBox="0 0 650 96" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:650px;display:block;">
+  <defs>
+    <!-- Vibrant Visible Frame Border (Visible on Dark & Light) -->
+    <linearGradient id="frameBorderAbout" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="25%" stop-color="#6366F1"/>
+      <stop offset="75%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="glassBgAbout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <!-- Accent Bar -->
+    <linearGradient id="barAbout" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-main { fill: #0F172A; }
+    .title-sub { fill: #475569; }
+    .tag-text { fill: #0284C7; }
+    .icon-box { fill: rgba(2, 132, 199, 0.12); stroke: #0284C7; }
+
+    @media (prefers-color-scheme: dark) {
+      .title-main { fill: #FFFFFF; }
+      .title-sub { fill: #94A3B8; }
+      .tag-text { fill: #38BDF8; }
+      .icon-box { fill: rgba(56, 189, 248, 0.15); stroke: #38BDF8; }
+    }
+  </style>
+
+  <!-- Clear Vibrant Frame -->
+  <rect x="0.75" y="0.75" width="648.5" height="94.5" rx="14" stroke="url(#frameBorderAbout)" stroke-width="1.5" fill="url(#glassBgAbout)"/>
+
+  <!-- Left Accent Bar -->
+  <path d="M0 14C0 6.268 6.268 0 14 0H18V96H14C6.268 96 0 89.732 0 82V14Z" fill="url(#barAbout)"/>
+
+  <!-- Left Icon Badge -->
+  <g transform="translate(30, 20)">
+    <rect width="56" height="56" rx="12" class="icon-box" stroke-width="1.2"/>
+    <!-- Terminal / Code Icon -->
+    <path d="M18 20L25 28L18 36M30 36H38" stroke="#0284C7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Section Text -->
+  <g transform="translate(104, 0)">
+    <!-- Category Tag -->
+    <text x="0" y="38" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700" letter-spacing="1.5">
+      // 01. PROFILE &amp; PHILOSOPHY
+    </text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <tspan font-size="26" font-weight="800" class="title-main">About Me</tspan>
+      <tspan dx="12" font-size="16" font-weight="500" class="title-sub">— Backend Engineer focused on clean, scalable systems</tspan>
+    </text>
+  </g>
+</svg>
