@@ -28,18 +28,18 @@ I concentrate on practical software engineering — translating business require
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 
-</div>
-
-<br/>
+<br/><br/>
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| ⚡ **Languages & Runtime** | `C# 14` `·` `.NET 10` `·` `ASP.NET Core` `·` `EF Core` |
-| 🗄️ **Databases & Storage** | `PostgreSQL` `·` `SQL Server` `·` `Redis` `·` `T-SQL` |
-| 🔌 **APIs & Messaging** | `RESTful APIs` `·` `MediatR` `·` `Dapper` `·` `SignalR` |
-| ☁️ **Cloud & DevOps** | `Docker` `·` `GitHub Actions` `·` `Azure` `·` `CI/CD Pipelines` |
-| 🏛️ **Architecture & Design** | `Clean Architecture` `·` `CQRS` `·` `DDD` `·` `SOLID Principles` |
-| 🧪 **Testing & Quality** | `xUnit` `·` `Moq` `·` `FluentAssertions` `·` `Integration Tests` |
+| **Languages & Runtime** | `C# 14` · `.NET 10` · `ASP.NET Core` · `EF Core` |
+| **Databases & Storage** | `PostgreSQL` · `SQL Server` · `Redis` · `T-SQL` |
+| **APIs & Messaging** | `RESTful APIs` · `MediatR` · `Dapper` · `SignalR` |
+| **Cloud & DevOps** | `Docker` · `GitHub Actions` · `Azure` · `CI/CD Pipelines` |
+| **Architecture & Design** | `Clean Architecture` · `CQRS` · `DDD` · `SOLID Principles` |
+| **Testing & Quality** | `xUnit` · `Moq` · `FluentAssertions` · `Integration Tests` |
+
+</div>
 
 <br/>
 
