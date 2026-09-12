@@ -1,0 +1,126 @@
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Light Mode Elegant Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F0F6FF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+
+    <!-- Top Accent Bar Gradient -->
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969DA"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <!-- Underline Gradient -->
+    <linearGradient id="nameUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969DA" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#0969DA"/>
+      <stop offset="70%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Ambient Glow Orbs -->
+    <radialGradient id="glowLeft" cx="0%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#BFDBFE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#DDD6FE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="230" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Crisp Border -->
+  <rect x="1" y="1" width="898" height="228" rx="15" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="900" height="5" rx="2.5" fill="url(#topBar)"/>
+
+  <!-- Ambient Glows -->
+  <ellipse cx="60" cy="115" rx="160" ry="100" fill="url(#glowLeft)"/>
+  <ellipse cx="840" cy="115" rx="160" ry="100" fill="url(#glowRight)"/>
+
+  <!-- Dot Grid Pattern (Left) -->
+  <g fill="#CBD5E1" opacity="0.6">
+    <circle cx="36" cy="42" r="1.8"/>
+    <circle cx="52" cy="42" r="1.8"/>
+    <circle cx="68" cy="42" r="1.8"/>
+    <circle cx="84" cy="42" r="1.8"/>
+    <circle cx="36" cy="58" r="1.8"/>
+    <circle cx="52" cy="58" r="1.8"/>
+    <circle cx="68" cy="58" r="1.8"/>
+    <circle cx="84" cy="58" r="1.8"/>
+    <circle cx="36" cy="74" r="1.8"/>
+    <circle cx="52" cy="74" r="1.8"/>
+    <circle cx="68" cy="74" r="1.8"/>
+    <circle cx="84" cy="74" r="1.8"/>
+  </g>
+
+  <!-- Dot Grid Pattern (Right) -->
+  <g fill="#CBD5E1" opacity="0.6">
+    <circle cx="816" cy="162" r="1.8"/>
+    <circle cx="832" cy="162" r="1.8"/>
+    <circle cx="848" cy="162" r="1.8"/>
+    <circle cx="864" cy="162" r="1.8"/>
+    <circle cx="816" cy="178" r="1.8"/>
+    <circle cx="832" cy="178" r="1.8"/>
+    <circle cx="848" cy="178" r="1.8"/>
+    <circle cx="864" cy="178" r="1.8"/>
+    <circle cx="816" cy="194" r="1.8"/>
+    <circle cx="832" cy="194" r="1.8"/>
+    <circle cx="848" cy="194" r="1.8"/>
+    <circle cx="864" cy="194" r="1.8"/>
+  </g>
+
+  <!-- Code Watermark (Left) -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#0969DA" fill-opacity="0.18">
+    <text x="36" y="112">public interface IBackendService {</text>
+    <text x="48" y="130">Task&lt;Result&gt; ProcessAsync();</text>
+    <text x="36" y="148">}</text>
+  </g>
+
+  <!-- Code Watermark (Right) -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#6366F1" fill-opacity="0.18">
+    <text x="705" y="80">app.MapEndpoints();</text>
+    <text x="705" y="98">await app.RunAsync();</text>
+  </g>
+
+  <!-- Decorative Brackets -->
+  <text x="110" y="145" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="92" font-weight="900" fill="#0969DA" fill-opacity="0.05">{</text>
+  <text x="750" y="145" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="92" font-weight="900" fill="#6366F1" fill-opacity="0.05">}</text>
+
+  <!-- Top Role Pill -->
+  <rect x="330" y="28" width="240" height="26" rx="13" fill="#FFFFFF" stroke="#DBEAFE" stroke-width="1.2"/>
+  <circle cx="346" cy="41" r="4" fill="#0969DA"/>
+  <text x="358" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#0969DA" letter-spacing="1.2">.NET BACKEND DEVELOPER</text>
+
+  <!-- Main Name -->
+  <text x="450" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#0F172A" text-anchor="middle" letter-spacing="-1">Noureddine Osama</text>
+
+  <!-- Name Underline Accent -->
+  <rect x="290" y="110" width="320" height="3" rx="1.5" fill="url(#nameUnderline)"/>
+
+  <text x="450" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.2">C# &amp; ASP.NET Core  •  Clean Architecture  •  PostgreSQL  •  Scalable APIs</text>
+
+  <!-- Bottom Badges / Status Chips -->
+  <g transform="translate(195, 166)">
+    <!-- Chip 1: Available -->
+    <rect x="0" y="0" width="140" height="26" rx="13" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4" fill="#16A34A"/>
+    <text x="27" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#15803D">Available for Roles</text>
+
+    <!-- Chip 2: Tech -->
+    <rect x="152" y="0" width="186" height="26" rx="13" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <text x="245" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1D4ED8" text-anchor="middle">⚡ .NET 10 &amp; Modern C#</text>
+
+    <!-- Chip 3: Architecture -->
+    <rect x="350" y="0" width="160" height="26" rx="13" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="430" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#334155" text-anchor="middle">🏗️ Clean Architecture</text>
+  </g>
+</svg>

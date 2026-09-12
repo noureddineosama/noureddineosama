@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Luxury Hero Header Banner -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-banner.svg?v=2" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.svg" alt="Noureddine Osama - .NET Backend Developer" width="100%" />
 
 <br/>
 
