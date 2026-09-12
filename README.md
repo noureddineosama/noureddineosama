@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
 <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/hero-clean.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
@@ -58,7 +58,7 @@ I concentrate on practical software engineering — translating business require
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false" alt="GitHub Streak" width="750" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false&timezone=Africa%2FCairo&v=90" alt="GitHub Streak" width="750" />
 
 </div>
 
