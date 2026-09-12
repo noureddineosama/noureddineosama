@@ -79,24 +79,24 @@ I concentrate on practical software engineering — translating business require
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/noureddineosama/Water-Operations-Intelligence-Platform" target="_blank">
-        <img alt="Water Operations Intelligence Platform" src="./projects/water-intelligence.svg" width="100%" />
+        <img alt="Water Operations Intelligence Platform" src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/projects/water-intelligence.svg" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/noureddineosama/OnlineTravelBookingAPP" target="_blank">
-        <img alt="Online Travel Booking App" src="./projects/travel-booking.svg" width="100%" />
+        <img alt="Online Travel Booking App" src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/projects/travel-booking.svg" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/noureddineosama/DoctorBookingApp" target="_blank">
-        <img alt="Doctor Booking App" src="./projects/doctor-booking.svg" width="100%" />
+        <img alt="Doctor Booking App" src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/projects/doctor-booking.svg" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/noureddineosama/Codean" target="_blank">
-        <img alt="Codean" src="./projects/codean.svg" width="100%" />
+        <img alt="Codean" src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/projects/codean.svg" width="100%" />
       </a>
     </td>
   </tr>
