@@ -1,65 +1,60 @@
 <svg width="900" height="64" viewBox="0 0 900 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bgStats" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#090D16"/>
-      <stop offset="60%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#14182E"/>
+    <linearGradient id="bgStatsLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
 
     <!-- Border Gradient -->
-    <linearGradient id="borderStats" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="#38BDF8" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#334155" stop-opacity="0.2"/>
+    <linearGradient id="borderStatsLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#0284C7" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
 
     <!-- Accent Bar Gradient -->
-    <linearGradient id="barStats" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="barStatsLight" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
-
-    <!-- Icon Background -->
-    <linearGradient id="iconBgStats" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
   </defs>
 
   <!-- Card Background -->
-  <rect width="900" height="64" rx="10" fill="url(#bgStats)"/>
-  <rect x="0.75" y="0.75" width="898.5" height="62.5" rx="9.25" stroke="url(#borderStats)" stroke-width="1.5"/>
+  <rect width="900" height="64" rx="10" fill="url(#bgStatsLight)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="62.5" rx="9.25" stroke="url(#borderStatsLight)" stroke-width="1.5"/>
 
   <!-- Left Accent Bar -->
-  <path d="M0 10C0 4.477 4.477 0 10 0H14V64H10C4.477 64 0 59.523 0 54V10Z" fill="url(#barStats)"/>
+  <path d="M0 10C0 4.477 4.477 0 10 0H14V64H10C4.477 64 0 59.523 0 54V10Z" fill="url(#barStatsLight)"/>
 
   <!-- Left Icon Badge -->
   <g transform="translate(28, 14)">
-    <rect width="36" height="36" rx="8" fill="url(#iconBgStats)" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+    <rect width="36" height="36" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
     <!-- Pulse / Activity Chart Icon -->
-    <path d="M10 23L15 15L19 21L23 13L26 23" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10 23L15 15L19 21L23 13L26 23" stroke="#059669" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- Section Text -->
   <g transform="translate(76, 0)">
     <!-- Category Mono Tag -->
-    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" fill="#34D399" letter-spacing="1.2">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#059669" letter-spacing="1.2">
       // 03. METRICS &amp; CONSISTENCY
     </text>
 
     <!-- Main Title & Subtitle -->
     <text x="0" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
-      <tspan font-size="16" font-weight="700" fill="#F8FAFC">GitHub Activity</tspan>
-      <tspan dx="10" font-size="13" font-weight="400" fill="#94A3B8">— Contribution streak, commits &amp; open-source velocity</tspan>
+      <tspan font-size="16" font-weight="800" fill="#0F172A">GitHub Activity</tspan>
+      <tspan dx="10" font-size="13" font-weight="500" fill="#64748B">— Contribution streak, commits &amp; open-source velocity</tspan>
     </text>
   </g>
 
   <!-- Right Side Tag -->
   <g transform="translate(746, 20)">
-    <rect width="128" height="24" rx="6" fill="#1E293B" fill-opacity="0.7" stroke="#334155" stroke-width="1"/>
-    <circle cx="12" cy="12" r="3" fill="#34D399"/>
-    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#CBD5E1" letter-spacing="0.5">
+    <rect width="128" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3" fill="#10B981"/>
+    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#475569" letter-spacing="0.5">
       LIVE TELEMETRY
     </text>
   </g>

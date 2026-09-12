@@ -1,66 +1,61 @@
 <svg width="900" height="64" viewBox="0 0 900 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bgStack" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#090D16"/>
-      <stop offset="60%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#14182E"/>
+    <linearGradient id="bgStackLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
 
     <!-- Border Gradient -->
-    <linearGradient id="borderStack" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="#C084FC" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#334155" stop-opacity="0.2"/>
+    <linearGradient id="borderStackLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
 
     <!-- Accent Bar Gradient -->
-    <linearGradient id="barStack" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
-    </linearGradient>
-
-    <!-- Icon Background -->
-    <linearGradient id="iconBgStack" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
+    <linearGradient id="barStackLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
   </defs>
 
   <!-- Card Background -->
-  <rect width="900" height="64" rx="10" fill="url(#bgStack)"/>
-  <rect x="0.75" y="0.75" width="898.5" height="62.5" rx="9.25" stroke="url(#borderStack)" stroke-width="1.5"/>
+  <rect width="900" height="64" rx="10" fill="url(#bgStackLight)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="62.5" rx="9.25" stroke="url(#borderStackLight)" stroke-width="1.5"/>
 
   <!-- Left Accent Bar -->
-  <path d="M0 10C0 4.477 4.477 0 10 0H14V64H10C4.477 64 0 59.523 0 54V10Z" fill="url(#barStack)"/>
+  <path d="M0 10C0 4.477 4.477 0 10 0H14V64H10C4.477 64 0 59.523 0 54V10Z" fill="url(#barStackLight)"/>
 
   <!-- Left Icon Badge -->
   <g transform="translate(28, 14)">
-    <rect width="36" height="36" rx="8" fill="url(#iconBgStack)" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1"/>
+    <rect width="36" height="36" rx="8" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
     <!-- Stack / Layers Icon -->
-    <path d="M18 12L10 16L18 20L26 16L18 12Z" stroke="#A78BFA" stroke-width="1.8" stroke-linejoin="round"/>
-    <path d="M10 20L18 24L26 20" stroke="#A78BFA" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M18 12L10 16L18 20L26 16L18 12Z" stroke="#6D28D9" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M10 20L18 24L26 20" stroke="#6D28D9" stroke-width="1.8" stroke-linejoin="round"/>
   </g>
 
   <!-- Section Text -->
   <g transform="translate(76, 0)">
     <!-- Category Mono Tag -->
-    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" fill="#A78BFA" letter-spacing="1.2">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#6D28D9" letter-spacing="1.2">
       // 02. ARSENAL &amp; CAPABILITIES
     </text>
 
     <!-- Main Title & Subtitle -->
     <text x="0" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
-      <tspan font-size="16" font-weight="700" fill="#F8FAFC">Tech Stack</tspan>
-      <tspan dx="10" font-size="13" font-weight="400" fill="#94A3B8">— Technologies, tools &amp; frameworks I build with daily</tspan>
+      <tspan font-size="16" font-weight="800" fill="#0F172A">Tech Stack</tspan>
+      <tspan dx="10" font-size="13" font-weight="500" fill="#64748B">— Technologies, tools &amp; frameworks I build with daily</tspan>
     </text>
   </g>
 
   <!-- Right Side Tag -->
   <g transform="translate(746, 20)">
-    <rect width="128" height="24" rx="6" fill="#1E293B" fill-opacity="0.7" stroke="#334155" stroke-width="1"/>
-    <circle cx="12" cy="12" r="3" fill="#A78BFA"/>
-    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#CBD5E1" letter-spacing="0.5">
+    <rect width="128" height="24" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3" fill="#6D28D9"/>
+    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#475569" letter-spacing="0.5">
       .NET ECOSYSTEM
     </text>
   </g>

@@ -1,71 +1,49 @@
 <svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080C15"/>
-      <stop offset="50%" stop-color="#0E1626"/>
-      <stop offset="100%" stop-color="#14132B"/>
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
 
     <!-- Border Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7"/>
-      <stop offset="35%" stop-color="#818CF8" stop-opacity="0.4"/>
-      <stop offset="70%" stop-color="#C084FC" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.2"/>
+    <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#818CF8" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
 
     <!-- Top Accent Bar Gradient -->
-    <linearGradient id="topBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="topBarLight" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0284C7"/>
-      <stop offset="30%" stop-color="#38BDF8"/>
-      <stop offset="65%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#A855F7"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="70%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
-
-    <!-- Text Name Gradient -->
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#F1F5F9"/>
-      <stop offset="100%" stop-color="#BAE6FD"/>
-    </linearGradient>
-
-    <!-- Role Badge Gradient -->
-    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <!-- Radial Glow Right -->
-    <radialGradient id="glowRight" cx="80%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.2"/>
-      <stop offset="60%" stop-color="#0284C7" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#080C15" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Radial Glow Left -->
-    <radialGradient id="glowLeft" cx="10%" cy="80%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#080C15" stop-opacity="0"/>
-    </radialGradient>
 
     <!-- Dot Grid Pattern -->
-    <pattern id="dotPattern" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.07"/>
+    <pattern id="dotPatternLight" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#64748B" fill-opacity="0.1"/>
     </pattern>
+
+    <!-- Role Badge Background -->
+    <linearGradient id="roleBadgeLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
   </defs>
 
   <!-- Card Background -->
-  <rect width="900" height="230" rx="12" fill="url(#bgGrad)"/>
-  <rect width="900" height="230" rx="12" fill="url(#glowRight)"/>
-  <rect width="900" height="230" rx="12" fill="url(#glowLeft)"/>
-  <rect width="900" height="230" rx="12" fill="url(#dotPattern)"/>
+  <rect width="900" height="230" rx="12" fill="url(#bgGradLight)"/>
+  <rect width="900" height="230" rx="12" fill="url(#dotPatternLight)"/>
 
-  <!-- Outer Stroke Border -->
-  <rect x="0.75" y="0.75" width="898.5" height="228.5" rx="11.25" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <!-- Outer Border -->
+  <rect x="0.75" y="0.75" width="898.5" height="228.5" rx="11.25" stroke="url(#borderGradLight)" stroke-width="1.5"/>
 
   <!-- Top Accent Line -->
-  <rect x="12" y="1" width="876" height="3" rx="1.5" fill="url(#topBarGrad)"/>
+  <rect x="12" y="1" width="876" height="3.5" rx="1.75" fill="url(#topBarLight)"/>
 
   <!-- ─── WINDOW CONTROLS & BREADCRUMB ────────────────────────────────────────── -->
   <circle cx="34" cy="24" r="4.5" fill="#EF4444" fill-opacity="0.85"/>
@@ -78,34 +56,34 @@
 
   <!-- Status Pill: Available for roles -->
   <g transform="translate(720, 14)">
-    <rect width="148" height="22" rx="11" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <rect width="148" height="22" rx="11" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
     <circle cx="14" cy="11" r="3.5" fill="#10B981"/>
-    <circle cx="14" cy="11" r="5.5" stroke="#10B981" stroke-opacity="0.35" stroke-width="1"/>
-    <text x="26" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.3">
+    <circle cx="14" cy="11" r="5.5" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="26" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#047857" letter-spacing="0.4">
       AVAILABLE FOR ROLES
     </text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="24" y1="42" x2="876" y2="42" stroke="#1E293B" stroke-width="1"/>
+  <line x1="24" y1="42" x2="876" y2="42" stroke="#E2E8F0" stroke-width="1"/>
 
   <!-- ─── ROLE CAPSULE ───────────────────────────────────────────────────────── -->
   <g transform="translate(32, 56)">
-    <rect width="210" height="24" rx="12" fill="url(#badgeGrad)" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="210" height="24" rx="12" fill="url(#roleBadgeLight)" stroke="#BFDBFE" stroke-width="1"/>
     <!-- Bolt Icon -->
-    <path d="M14 12.5L18.5 7H23L19.5 11.5H23.5L16.5 18L18 13.5H14V12.5Z" fill="#38BDF8"/>
-    <text x="30" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1">
+    <path d="M14 12.5L18.5 7H23L19.5 11.5H23.5L16.5 18L18 13.5H14V12.5Z" fill="#0284C7"/>
+    <text x="30" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#0284C7" letter-spacing="0.8">
       .NET BACKEND DEVELOPER
     </text>
   </g>
 
   <!-- ─── MAIN NAME ──────────────────────────────────────────────────────────── -->
-  <text x="32" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="34" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.5">
+  <text x="32" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="34" font-weight="800" fill="#0F172A" letter-spacing="-0.5">
     Noureddine Osama
   </text>
 
   <!-- ─── VALUE STATEMENT / SUBTITLE ─────────────────────────────────────────── -->
-  <text x="32" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8">
+  <text x="32" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#475569">
     Building High-Performance APIs, Resilient Cloud Services &amp; Clean Domain Architectures
   </text>
 
@@ -113,86 +91,85 @@
   <g transform="translate(32, 175)">
     <!-- Chip 1: C# -->
     <g transform="translate(0, 0)">
-      <rect width="48" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F1F5F9" text-anchor="middle">C# 13</text>
+      <rect width="50" height="25" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="25" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0F172A" text-anchor="middle">C# 13</text>
     </g>
 
     <!-- Chip 2: .NET 10 -->
-    <g transform="translate(56, 0)">
-      <rect width="66" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="33" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="middle">.NET 10</text>
+    <g transform="translate(58, 0)">
+      <rect width="68" height="25" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+      <text x="34" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#6D28D9" text-anchor="middle">.NET 10</text>
     </g>
 
     <!-- Chip 3: ASP.NET Core -->
-    <g transform="translate(130, 0)">
-      <rect width="108" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="54" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="middle">ASP.NET Core</text>
+    <g transform="translate(134, 0)">
+      <rect width="110" height="25" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="55" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">ASP.NET Core</text>
     </g>
 
     <!-- Chip 4: Clean Architecture -->
-    <g transform="translate(246, 0)">
-      <rect width="124" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="62" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F1F5F9" text-anchor="middle">Clean Architecture</text>
+    <g transform="translate(252, 0)">
+      <rect width="128" height="25" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="64" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="middle">Clean Architecture</text>
     </g>
 
     <!-- Chip 5: CQRS / MediatR -->
-    <g transform="translate(378, 0)">
-      <rect width="112" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="56" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F1F5F9" text-anchor="middle">CQRS / MediatR</text>
+    <g transform="translate(388, 0)">
+      <rect width="116" height="25" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="58" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="middle">CQRS / MediatR</text>
     </g>
 
     <!-- Chip 6: PostgreSQL -->
-    <g transform="translate(498, 0)">
-      <rect width="84" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="42" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#67E8F9" text-anchor="middle">PostgreSQL</text>
+    <g transform="translate(512, 0)">
+      <rect width="88" height="25" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="44" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0369A1" text-anchor="middle">PostgreSQL</text>
     </g>
 
     <!-- Chip 7: Docker -->
-    <g transform="translate(590, 0)">
-      <rect width="64" height="24" rx="6" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
-      <text x="32" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="middle">Docker</text>
+    <g transform="translate(608, 0)">
+      <rect width="66" height="25" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="33" y="16.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#15803D" text-anchor="middle">Docker</text>
     </g>
   </g>
 
   <!-- ─── RIGHT SIDE ARCHITECTURE TELEMETRY GRAPHIC ───────────────────────────── -->
-  <g transform="translate(695, 62)">
+  <g transform="translate(695, 60)">
     <!-- Decorative Container Box -->
-    <rect width="175" height="136" rx="10" fill="#0B1323" fill-opacity="0.8" stroke="#1E293B" stroke-width="1.2"/>
+    <rect width="175" height="140" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
 
     <!-- Header bar -->
-    <path d="M0 10C0 4.477 4.477 0 10 0H165C170.523 0 175 4.477 175 10V26H0V10Z" fill="#111C33"/>
-    <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#38BDF8" letter-spacing="0.5">SYSTEM ARCHITECTURE</text>
+    <path d="M0 10C0 4.477 4.477 0 10 0H165C170.523 0 175 4.477 175 10V26H0V10Z" fill="#F8FAFC"/>
+    <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#0284C7" letter-spacing="0.5">SYSTEM ARCHITECTURE</text>
     <circle cx="160" cy="13" r="3" fill="#10B981"/>
 
     <!-- Layer 1: API & Gateway -->
-    <g transform="translate(12, 34)">
-      <rect width="151" height="26" rx="5" fill="#1E293B" stroke="#0284C7" stroke-opacity="0.5" stroke-width="1"/>
-      <!-- Dot -->
-      <circle cx="12" cy="13" r="3" fill="#38BDF8"/>
-      <text x="22" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="600" fill="#F1F5F9">API Gateway / REST</text>
-      <text x="142" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="500" fill="#38BDF8" text-anchor="end">v10</text>
+    <g transform="translate(12, 35)">
+      <rect width="151" height="27" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <circle cx="12" cy="13.5" r="3" fill="#0284C7"/>
+      <text x="22" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="700" fill="#0369A1">API Gateway / REST</text>
+      <text x="142" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="700" fill="#0284C7" text-anchor="end">v10</text>
     </g>
 
     <!-- Connector line -->
-    <line x1="87" y1="60" x2="87" y2="67" stroke="#334155" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <line x1="87" y1="62" x2="87" y2="70" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="2 2"/>
 
     <!-- Layer 2: Core Domain Logic -->
-    <g transform="translate(12, 67)">
-      <rect width="151" height="26" rx="5" fill="#1E293B" stroke="#6366F1" stroke-opacity="0.5" stroke-width="1"/>
-      <circle cx="12" cy="13" r="3" fill="#818CF8"/>
-      <text x="22" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="600" fill="#F1F5F9">Domain / Clean CQRS</text>
-      <text x="142" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="500" fill="#818CF8" text-anchor="end">DDD</text>
+    <g transform="translate(12, 70)">
+      <rect width="151" height="27" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+      <circle cx="12" cy="13.5" r="3" fill="#7C3AED"/>
+      <text x="22" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="700" fill="#6D28D9">Domain / Clean CQRS</text>
+      <text x="142" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="700" fill="#7C3AED" text-anchor="end">DDD</text>
     </g>
 
     <!-- Connector line -->
-    <line x1="87" y1="93" x2="87" y2="100" stroke="#334155" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <line x1="87" y1="97" x2="87" y2="105" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="2 2"/>
 
     <!-- Layer 3: Persistence & Cache -->
-    <g transform="translate(12, 100)">
-      <rect width="151" height="26" rx="5" fill="#1E293B" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1"/>
-      <circle cx="12" cy="13" r="3" fill="#C084FC"/>
-      <text x="22" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="600" fill="#F1F5F9">PostgreSQL + Redis</text>
-      <text x="142" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="500" fill="#C084FC" text-anchor="end">ACID</text>
+    <g transform="translate(12, 105)">
+      <rect width="151" height="27" rx="6" fill="#FAF5FF" stroke="#E9D5FF" stroke-width="1"/>
+      <circle cx="12" cy="13.5" r="3" fill="#9333EA"/>
+      <text x="22" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="700" fill="#7E22CE">PostgreSQL + Redis</text>
+      <text x="142" y="17.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="700" fill="#9333EA" text-anchor="end">ACID</text>
     </g>
   </g>
 </svg>

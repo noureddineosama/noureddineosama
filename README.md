@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.svg?v=4" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.svg?v=5" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
      ABOUT ME
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-about.svg?v=4" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-about.svg?v=5" alt="About Me" width="100%" />
 
 <br/>
 
@@ -42,7 +42,7 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stack.svg?v=4" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stack.svg?v=5" alt="Tech Stack" width="100%" />
 
 <br/>
 
@@ -68,13 +68,13 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stats.svg?v=4" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stats.svg?v=5" alt="GitHub Stats" width="100%" />
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=dark&background=090D16&border=1E293B&stroke=1E293B&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&currStreakLabel=38BDF8&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B&hide_border=false" alt="GitHub Streak" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=475569&dates=64748B&background=FFFFFF&border=E2E8F0&hide_border=false" alt="GitHub Streak" width="60%"/>
 
 </div>
 
