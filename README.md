@@ -23,8 +23,6 @@
   <a href="https://github.com/noureddineosama" target="_blank">
     <img src="https://img.shields.io/badge/-GitHub-24292F?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="26"/>
   </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=noureddineosama&style=flat-square&color=0969DA&label=Profile+Views" alt="Profile Views" height="26"/>
 </p>
 
 </div>
