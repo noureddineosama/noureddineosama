@@ -1,0 +1,65 @@
+<svg viewBox="0 0 860 56" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:860px;display:block;">
+  <defs>
+    <!-- Vibrant Visible Frame Border (Visible on Dark & Light) -->
+    <linearGradient id="frameBorderStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="35%" stop-color="#8B5CF6"/>
+      <stop offset="70%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Subtle Glass Background -->
+    <linearGradient id="glassBgStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.06"/>
+    </linearGradient>
+
+    <!-- Accent Bar -->
+    <linearGradient id="barStack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-main { fill: #0F172A; }
+    .title-sub { fill: #475569; }
+    .tag-text { fill: #6366F1; }
+    .icon-box { fill: rgba(99, 102, 241, 0.1); stroke: #6366F1; }
+
+    @media (prefers-color-scheme: dark) {
+      .title-main { fill: #FFFFFF; }
+      .title-sub { fill: #94A3B8; }
+      .tag-text { fill: #A78BFA; }
+      .icon-box { fill: rgba(167, 139, 250, 0.15); stroke: #A78BFA; }
+    }
+  </style>
+
+  <!-- Clear Vibrant Frame -->
+  <rect x="0.75" y="0.75" width="858.5" height="54.5" rx="10" stroke="url(#frameBorderStack)" stroke-width="1.5" fill="url(#glassBgStack)"/>
+
+  <!-- Left Accent Bar -->
+  <path d="M0 10C0 4.477 4.477 0 10 0H14V56H10C4.477 56 0 51.523 0 46V10Z" fill="url(#barStack)"/>
+
+  <!-- Left Icon Badge -->
+  <g transform="translate(24, 11)">
+    <rect width="34" height="34" rx="8" class="icon-box" stroke-width="1"/>
+    <!-- Stack / Layers Icon -->
+    <path d="M17 11L10 15L17 19L24 15L17 11Z" stroke="#6366F1" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M10 19L17 23L24 19" stroke="#6366F1" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Section Text -->
+  <g transform="translate(70, 0)">
+    <!-- Category Tag -->
+    <text x="0" y="21" class="tag-text" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">
+      // 02. ARSENAL &amp; CAPABILITIES
+    </text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="0" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <tspan font-size="16" font-weight="800" class="title-main">Tech Stack</tspan>
+      <tspan dx="10" font-size="13" font-weight="500" class="title-sub">— Technologies, tools &amp; frameworks I build with daily</tspan>
+    </text>
+  </g>
+</svg>
