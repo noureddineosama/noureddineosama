@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ─── HERO BANNER ─────────────────────────────────────────────────────────── -->
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.svg?v=5" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-light.svg" alt="Noureddine Osama — .NET Backend Developer" width="100%" />
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
      ABOUT ME
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-about.svg?v=5" alt="About Me" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-about.svg" alt="About Me" width="100%" />
 
 <br/>
 
@@ -42,13 +42,13 @@ I concentrate on practical software engineering — translating business require
      TECH STACK
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stack.svg?v=5" alt="Tech Stack" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-stack.svg" alt="Tech Stack" width="100%" />
 
 <br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&theme=light&perline=9" alt="Tech Icons" />
 
 </div>
 
@@ -68,7 +68,7 @@ I concentrate on practical software engineering — translating business require
      GITHUB STATS
      ════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/sec-stats.svg?v=5" alt="GitHub Stats" width="100%" />
+<img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/header-stats.svg" alt="GitHub Stats" width="100%" />
 
 <br/>
 
