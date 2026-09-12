@@ -1,7 +1,67 @@
-<svg width="900" height="56" viewBox="0 0 900 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="56" rx="6" fill="#FFFFFF"/>
-  <rect x="0.75" y="0.75" width="898.5" height="54.5" rx="5.25" stroke="#D0D7DE" stroke-width="1.5"/>
-  <rect x="0" y="0" width="4" height="56" rx="2" fill="#0969DA"/>
-  <text x="22" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#636C76" letter-spacing="1.2">TECH STACK</text>
-  <text x="22" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800" fill="#1F2328">Technologies and tools I work with daily</text>
+<svg width="900" height="64" viewBox="0 0 900 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#14182E"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#C084FC" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Accent Bar Gradient -->
+    <linearGradient id="barStack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- Icon Background -->
+    <linearGradient id="iconBgStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="900" height="64" rx="10" fill="url(#bgStack)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="62.5" rx="9.25" stroke="url(#borderStack)" stroke-width="1.5"/>
+
+  <!-- Left Accent Bar -->
+  <path d="M0 10C0 4.477 4.477 0 10 0H14V64H10C4.477 64 0 59.523 0 54V10Z" fill="url(#barStack)"/>
+
+  <!-- Left Icon Badge -->
+  <g transform="translate(28, 14)">
+    <rect width="36" height="36" rx="8" fill="url(#iconBgStack)" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1"/>
+    <!-- Stack / Layers Icon -->
+    <path d="M18 12L10 16L18 20L26 16L18 12Z" stroke="#A78BFA" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M10 20L18 24L26 20" stroke="#A78BFA" stroke-width="1.8" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Section Text -->
+  <g transform="translate(76, 0)">
+    <!-- Category Mono Tag -->
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" fill="#A78BFA" letter-spacing="1.2">
+      // 02. ARSENAL &amp; CAPABILITIES
+    </text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="0" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <tspan font-size="16" font-weight="700" fill="#F8FAFC">Tech Stack</tspan>
+      <tspan dx="10" font-size="13" font-weight="400" fill="#94A3B8">— Technologies, tools &amp; frameworks I build with daily</tspan>
+    </text>
+  </g>
+
+  <!-- Right Side Tag -->
+  <g transform="translate(746, 20)">
+    <rect width="128" height="24" rx="6" fill="#1E293B" fill-opacity="0.7" stroke="#334155" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3" fill="#A78BFA"/>
+    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#CBD5E1" letter-spacing="0.5">
+      .NET ECOSYSTEM
+    </text>
+  </g>
 </svg>

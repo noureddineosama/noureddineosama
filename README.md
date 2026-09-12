@@ -74,7 +74,7 @@ I concentrate on practical software engineering — translating business require
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=0969DA&fire=E16A00&currStreakLabel=0969DA&sideLabels=636C76&dates=636C76" alt="GitHub Streak" width="55%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=dark&background=090D16&border=1E293B&stroke=1E293B&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&currStreakLabel=38BDF8&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B&hide_border=false" alt="GitHub Streak" width="60%"/>
 
 </div>
 
