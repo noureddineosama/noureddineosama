@@ -15,11 +15,13 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
+<div align="center">
+
 <table width="100%">
   <thead>
     <tr>
-      <th width="30%" align="left">Domain</th>
-      <th width="70%" align="left">Technologies &amp; Tools</th>
+      <th width="25%" align="left">Domain</th>
+      <th width="75%" align="left">Technologies &amp; Tools</th>
     </tr>
   </thead>
   <tbody>
@@ -49,4 +51,6 @@ I concentrate on practical software engineering — translating business require
     </tr>
   </tbody>
 </table>
+
+</div>
 
