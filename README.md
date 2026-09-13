@@ -1,13 +1,8 @@
 <div align="center">
 
-# Noureddine Osama
-### ⚡ .NET Backend Developer
-
-Building High-Performance APIs, Resilient Cloud Services & Clean Domain Architectures
-
-<br/>
-
-<kbd>C# 14</kbd> &nbsp; <kbd>.NET 10</kbd> &nbsp; <kbd>ASP.NET Core</kbd> &nbsp; <kbd>Clean Architecture</kbd> &nbsp; <kbd>CQRS / MediatR</kbd> &nbsp; <kbd>PostgreSQL</kbd> &nbsp; <kbd>Docker</kbd>
+<a href="https://github.com/noureddineosama">
+  <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.png" alt="Noureddine Osama - .NET Backend Developer" width="100%" style="max-width: 900px;" />
+</a>
 
 <br/><br/>
 
