@@ -7,10 +7,10 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
 
 ## Tech Stack & Capabilities
 
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 </div>
-
 <br/>
 
 ## GitHub Stats
