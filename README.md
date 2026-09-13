@@ -6,7 +6,7 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
 
 <br/>
 
-## 🛠️ Tech Stack & Capabilities
+## Tech Stack & Capabilities
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
@@ -14,7 +14,7 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
 
 <br/>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <a href="https://github.com/noureddineosama">
