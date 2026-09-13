@@ -18,6 +18,6 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
 
 <div align="center">
   <a href="https://github.com/noureddineosama">
-    <img src="https://streak-stats.demolab.com?user=noureddineosama" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=noureddineosama&theme=github-light&border_radius=8" width="580" alt="GitHub Streak" />
   </a>
 </div>
