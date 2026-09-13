@@ -4,7 +4,7 @@
 
 Focused on practical software engineering — clean APIs, **Clean Architecture**, **SOLID** principles, optimized queries, and systems that are easy to test and scale.
 
----
+<br/>
 
 ## 🛠️ Tech Stack & Capabilities
 
@@ -12,7 +12,7 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
   <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 </div>
 
----
+<br/>
 
 ## 📊 GitHub Stats
 
