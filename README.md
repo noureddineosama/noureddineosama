@@ -15,8 +15,6 @@ I concentrate on practical software engineering — translating business require
 
 <br/>
 
-<div align="center">
-
 <table width="100%">
   <thead>
     <tr>
@@ -51,6 +49,4 @@ I concentrate on practical software engineering — translating business require
     </tr>
   </tbody>
 </table>
-
-</div>
 
