@@ -11,3 +11,13 @@ Focused on practical software engineering — clean APIs, **Clean Architecture**
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,git,githubactions,azure,postman&perline=9" alt="Tech Icons" />
 </div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <a href="https://github.com/noureddineosama">
+    <img src="https://streak-stats.demolab.com?user=noureddineosama" alt="GitHub Streak" />
+  </a>
+</div>
