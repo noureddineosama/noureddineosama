@@ -1,15 +1,26 @@
 <div align="center">
 
-<a href="https://github.com/noureddineosama">
-  <img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/banner.png" alt="Noureddine Osama - .NET Backend Developer" width="100%" style="max-width: 900px;" />
-</a>
+# Noureddine Osama
 
-<br/><br/>
+⚡ **.NET Backend Developer** — Building High-Performance APIs, Resilient Cloud Services & Clean Domain Architectures
 
-<!-- ⚡ CONNECT BUTTONS ⚡ -->
-<a href="https://www.linkedin.com/in/noureddine-osama-a62843430/" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>&nbsp;&nbsp;<a href="mailto:noureddine.connect@outlook.com"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-outlook.svg" alt="Outlook" height="34" /></a>&nbsp;&nbsp;<a href="https://x.com/NoureddineOsama" target="_blank"><img src="https://raw.githubusercontent.com/noureddineosama/noureddineosama/main/assets/btn-x.svg" alt="X" height="34" /></a>
+<br/>
 
-<br/><br/>
+![C#](https://img.shields.io/badge/C%23%2014-239120?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET%2010-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-0284C7?style=flat-square&logo=dotnet&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-1E293B?style=flat-square)
+![CQRS](https://img.shields.io/badge/CQRS%20%2F%20MediatR-1E293B?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/noureddine-osama-a62843430/)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:noureddine.connect@outlook.com)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/NoureddineOsama)
+
+<br/>
 
 </div>
 
