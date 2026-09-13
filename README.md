@@ -1,28 +1,3 @@
-<div align="center">
-
-# Noureddine Osama
-
-⚡ **.NET Backend Developer** — Building High-Performance APIs, Resilient Cloud Services & Clean Domain Architectures
-
-<br/>
-
-![C#](https://img.shields.io/badge/C%23%2014-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%2010-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-0284C7?style=flat-square&logo=dotnet&logoColor=white)
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-1E293B?style=flat-square)
-![CQRS](https://img.shields.io/badge/CQRS%20%2F%20MediatR-1E293B?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/noureddine-osama-a62843430/)
-[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:noureddine.connect@outlook.com)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/NoureddineOsama)
-
-<br/>
-
-</div>
 
 ## 👤 About Me
 
