@@ -75,13 +75,3 @@ I concentrate on practical software engineering — translating business require
   </tbody>
 </table>
 
-<br/>
-
-## 📈 GitHub Activity & Metrics
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=noureddineosama&theme=transparent&ring=0284C7&fire=E16A00&currStreakLabel=0284C7&sideLabels=8B949E&dates=8B949E&sideNums=38BDF8&currStreakNum=38BDF8&border=0284C7&hide_border=false&border_radius=10&timezone=Africa%2FCairo&starting_year=2026" alt="GitHub Streak" width="100%" style="max-width:820px" />
-  <br/><br/>
-  <!-- 🌟 FOOTER 🌟 -->
-  <sub><i>"Clean code always looks like it was written by someone who cares." — Robert C. Martin</i></sub>
-</div>
