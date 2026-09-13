@@ -1,11 +1,10 @@
 
-## 👤 About Me
+## About Me
 
-I'm a **.NET Backend Developer** focused on building robust, maintainable, and scalable backend applications with **C#** and **ASP.NET Core**.
+> **.NET Backend Developer** building robust, maintainable & scalable backend systems with **C#** and **ASP.NET Core**.
 
-I concentrate on practical software engineering — translating business requirements into reliable APIs, writing clean modular code using **Clean Architecture** and **SOLID** principles, optimizing database queries, and designing systems that are straightforward to test and scale.
+Focused on practical software engineering — clean APIs, **Clean Architecture**, **SOLID** principles, optimized queries, and systems that are easy to test and scale.
 
-<br/>
 
 ## 🛠️ Tech Stack & Capabilities
 
